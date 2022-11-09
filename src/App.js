@@ -1,15 +1,25 @@
-import logo from './logo.svg';
 import './App.css';
 import Navigation from './components/Navigation';
 import Home from './components/Home';
+import Footer from './components/Footer';
+
+// https://colorkit.co/palette/809bce-95b8d1-b8e0d4-d6eadf-eac4d5/
 
 function App() {
   return (
     <div className="App">
       <Navigation/>
-      <Home />
+      
+      <div className="main-body">
+        <Home />
+
+
+        <Footer/>
+      </div>
+      
     </div>
   );
 }
 
 export default App;
+

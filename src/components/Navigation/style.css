@@ -8,6 +8,8 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  z-index: 5;
+  text-align: center;
 }
 
 .nav-link {
@@ -36,6 +38,7 @@
 .navigation ul {
   padding: 0;
   margin: 0;
+  width: 100%;
 }
 
 .navigation a:after {
@@ -86,3 +89,26 @@
 .navigation li:last-child a:after {
   background: #eac4d5;
 }
+
+
+/* MEDIA QUERIES */
+@media screen and (max-width: 992px) {
+  .icon-title {
+    margin-left: 0px;
+  }
+
+  .nav-icon {
+    font-size: 1.3em;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .nav-icon {
+    font-size: 1em;
+  }
+  .icon-title {
+    margin-left: 0px;
+    display: none;
+  }
+}
+
