@@ -1,76 +1,92 @@
-.about-me{
-    /* background-color: rgba(216, 224, 234, 0.4); */
-    background-color: #95b8d1;
-    color: #444;
-    /* text-shadow: 1px 1px #444; */
-    padding: 0.9rem 0;
-    margin: 0;
+.about-me {
+  /* background-color: rgba(216, 224, 234, 0.4); */
+  background-color: #809bce;
+  color: #444;
+  /* text-shadow: 1px 1px #444; */
+  padding: 1rem 0;
+  margin: 0;
 }
 
-.about-title{
-    /* color:#444; */
-    color: white;
-    text-shadow: 3px 3px #444;
-    font-size: 350%;
-    margin: 0;
-    margin-bottom: 20px;
-    text-align: center;
+.section-title {
+  text-align: center;
+  padding: 1.3rem;
+  margin: 0;
 }
 
-.profile-pic{
-    width: auto;
-    height: 100%;
-    max-height: 400px;
-    padding: 5px;
-    border: 4px dashed white;
-    border-radius: 50%;
+.about-title {
+  margin: 0;
+  margin-bottom: 20px;
+  text-align: center;
+  background-color: #b8e0d4;
+  text-transform: uppercase;
+  color: #fff;
+  padding: 1.3rem;
+  font-size: 1.5rem;
+  letter-spacing: 10px;
+  z-index: 2;
+  border: 2px solid white;
 }
 
-.profile{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    align-items: center;
+.profile-pic {
+  width: auto;
+  height: 100%;
+  max-height: 400px;
+  padding: 5px;
+  border: 4px dashed white;
+  border-radius: 50%;
 }
 
-.biography{
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    padding: 20px;
+.profile {
+  margin-top: 20px;
+  background-color: #95b8d1;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
 }
 
-.biography h2{
-    font-size: 200%;
-    margin-bottom: 5px;
+.biography {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.biography h2 {
+  font-size: 200%;
+  margin-bottom: 5px;
 }
 
 /* h2{
     color: white;
 } */
 
-h2, h3, h4, p{
-    margin: 5px;
+h2,
+h3,
+h4,
+p {
+  margin: 5px;
 }
 
-.bio-section h2{
-    text-shadow: 1.3px 1.3px white;
+.bio-section h2 {
+  text-shadow: 1.3px 1.3px white;
 }
 
-.bio-section{
-    margin-bottom: 20px;
-    padding: 10px;
-    border-radius: 10px;
+.bio-section {
+  margin-bottom: 20px;
+  padding: 10px;
+  border-radius: 10px;
 }
 
 .biography div:first-child {
-    background-color: #b8e0d4;
+  background-color: #b8e0d4;
 }
 
-.biography div:nth-child(2){
-    background-color: #d6eadf;
+.biography div:nth-child(2) {
+  background-color: #d6eadf;
 }
 
-.biography div:nth-child(3){
-    background-color: #eac4d5;
+.biography div:nth-child(3) {
+  /* background-color: #eac4d5; */
+  background-color: #b8e0d4;
 }

@@ -1,13 +1,13 @@
 import React from "react";
 import "./style.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faLocationDot, faLaptopCode } from "@fortawesome/free-solid-svg-icons";
+import { faLocationDot, faLaptopCode, faGraduationCap } from "@fortawesome/free-solid-svg-icons";
 import profilePic from "../../images/profile-pic-icon.png";
 
 export default function About() {
   return (
     <div className="about-me" id="about">
-      <h1 className="about-title">About Me</h1>
+      <h1 className="section-title"><span class="about-title">About Me</span></h1>
       <div className="profile">
         <img src={profilePic} className="profile-pic"></img>
         <div className="biography">
@@ -21,18 +21,18 @@ export default function About() {
             </h3>
           </div>
           <div className="bio-section">
-            <h2>Education</h2>
-            <h3>UCLA Extension Coding Bootcamp</h3>
-            <p>Full-Stack Coding Certificate</p>
-            <h3>UC Irvine</h3>
-            <p>Informations, Human Computer Interaction</p>
-          </div>
-          <div className="bio-section">
             <h2>Summary</h2>
             <p>
               Hi, I'm Cindy! I'm a full-stack web developer with experience
-              primarily in Javascript and React.{" "}
+              primarily in Javascript and React. 
             </p>
+          </div>
+          <div className="bio-section">
+            <h2>Education</h2>
+            <h3><FontAwesomeIcon icon={faGraduationCap}/>{" "}UCLA Extension Coding Bootcamp</h3>
+            <p>Full-Stack Coding Certificate</p>
+            <h3><FontAwesomeIcon icon={faGraduationCap}/>{" "}UC Irvine</h3>
+            <p>Informations, Human Computer Interaction</p>
           </div>
         </div>
       </div>
