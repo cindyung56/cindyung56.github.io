@@ -10,15 +10,13 @@ export default function Home() {
       blur={4}
       bgImage={blossomImg}
       bgImageAlt="blossoming flowers"
-      id="home"
       className="parallax-section"
     >
-      <div className="content">
-        <div className="background-box"></div>
+      <div className="content" id="home">
         <div className="content-text">
           <h3>Welcome to Cindy's Portfolio!</h3>
-          <hr/>
-          <p>UX-Focused Full-Stack Developer</p>
+          <hr />
+          <p>UX-Focused Web Developer</p>
         </div>
       </div>
     </Parallax>

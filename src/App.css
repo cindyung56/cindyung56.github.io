@@ -1,4 +1,26 @@
-.main-body{
-    width: 90vw;
-    height: 100vh;
+.main-body {
+  width: 90vw;
+  height: 100vh;
+}
+
+.content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  position: absolute;
+  height: 100vh;
+  width: 100%;
+  
+}
+
+.content-text {
+  background-color: #b8e0d4;
+  text-transform: uppercase;
+  color: #fff;
+  padding: 1.3rem;
+  font-size: 1.5rem;
+  letter-spacing: 10px;
+  z-index: 2;
+  border: 2px solid white;
 }

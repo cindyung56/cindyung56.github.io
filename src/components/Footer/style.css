@@ -1,17 +1,18 @@
 footer{
-    background-color: #95b8d1;
+    background-color: #809bce;
     color: white;
     width: 100%;
     padding: 0.5rem;
-    font-size: 2rem;
+    font-size: 3rem;
     text-align: center;
 }
 
 footer a{
     color: white;
     margin-right: 20px;
+    padding: 10px;
 }
 
 footer a:hover{
-    color: #d6eadf;
+    color: #b8e0d4;
 }

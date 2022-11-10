@@ -6,13 +6,13 @@ hr {
   border-bottom: none;
 }
 
-
-.background-box{
-    width: 57.5%;
-    height: 28%;
-    border: 1px solid white;
-    position: absolute;
-    margin-bottom: 50px;
-    margin-right: 50px;
-    z-index: 0;
+.content-text {
+  background-color: #b8e0d4;
+  text-transform: uppercase;
+  color: #fff;
+  padding: 1.3rem;
+  font-size: 1.5rem;
+  letter-spacing: 10px;
+  z-index: 2;
+  border: 2px solid white;
 }
