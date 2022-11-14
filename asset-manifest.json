@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/static/css/main.55bc93b8.css",
+    "main.js": "/static/js/main.910413d4.js",
+    "static/js/787.3be9ce3a.chunk.js": "/static/js/787.3be9ce3a.chunk.js",
+    "static/media/blossom-from-unsplash.jpg": "/static/media/blossom-from-unsplash.8aafc0e6ad6b6fc3e1c9.jpg",
+    "static/media/crescent-moon-from-unsplash.jpg": "/static/media/crescent-moon-from-unsplash.6adf743275c469e7f2ca.jpg",
+    "static/media/beach-from-unsplash.jpg": "/static/media/beach-from-unsplash.53eca7ab607b317b95a1.jpg",
+    "static/media/profile-pic-icon.png": "/static/media/profile-pic-icon.85f3ac399e104ffa6478.png",
+    "static/media/redux-store.jpg": "/static/media/redux-store.e392b35d34bd9786d222.jpg",
+    "static/media/tech-blog.jpg": "/static/media/tech-blog.a376f5cb3b8a46493bd4.jpg",
+    "static/media/pikachu.jpg": "/static/media/pikachu.aa673a7c918530779cd1.jpg",
+    "static/media/food-adventure.jpg": "/static/media/food-adventure.dca0c57ba1f0d85bf102.jpg",
+    "static/media/weather-dashboard.jpg": "/static/media/weather-dashboard.6f5d592dc72f9b795faa.jpg",
+    "static/media/resume-creator.jpg": "/static/media/resume-creator.7eeb72813783e283cb3f.jpg",
+    "index.html": "/index.html",
+    "main.55bc93b8.css.map": "/static/css/main.55bc93b8.css.map",
+    "main.910413d4.js.map": "/static/js/main.910413d4.js.map",
+    "787.3be9ce3a.chunk.js.map": "/static/js/787.3be9ce3a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.55bc93b8.css",
+    "static/js/main.910413d4.js"
+  ]
+}
