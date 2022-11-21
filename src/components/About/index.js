@@ -23,8 +23,11 @@ export default function About() {
           <div className="bio-section">
             <h2>Summary</h2>
             <p>
-              Hi, I'm Cindy! I'm a full-stack web developer with experience
-              primarily in Javascript and React. 
+              Hi, I'm Cindy! I am a UX-Focused Full Stack Web Developer looking for software and web developer opportunities.
+              I enjoy problem solving and turning my ideas into dynamic designs and applications. I love collaborating with others
+              and I believe teamwork and communication is essential to success. I work with a variety of languages including HTML, CSS, JavaScript, Python, and React.
+              I'm always willing to learn new things and meet new people! Some of my hobbies include: playing games, crocheting, and watching cat videos. ฅ^•ﻌ•^ฅ 
+              Feel free to send me an email or connect with me on LinkedIn!
             </p>
           </div>
           <div className="bio-section">
