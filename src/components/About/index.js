@@ -9,7 +9,7 @@ export default function About() {
     <div className="about-me" id="about">
       <h1 className="section-title"><span class="about-title">About Me</span></h1>
       <div className="profile">
-        <img src={profilePic} className="profile-pic"></img>
+        <img src={profilePic} className="profile-pic" alt="profile"></img>
         <div className="biography">
           <div className="bio-section">
             <h2>Cindy Ung</h2>
@@ -23,10 +23,11 @@ export default function About() {
           <div className="bio-section">
             <h2>Summary</h2>
             <p>
-              Hi, I'm Cindy! I am a UX-Focused Full Stack Web Developer looking for software and web developer opportunities.
+              Hi, I'm Cindy! I am a UX-Focused Full Stack Web Developer working primarily in JavaScript and React.js.
               I enjoy problem solving and turning my ideas into dynamic designs and applications. I love collaborating with others
-              and I believe teamwork and communication is essential to success. I work with a variety of languages including HTML, CSS, JavaScript, Python, and React.
-              I'm always willing to learn new things and meet new people! Some of my hobbies include: playing games, crocheting, and watching cat videos. ฅ^•ﻌ•^ฅ 
+              and I believe teamwork and communication is essential to success.
+              I'm always willing to learn new things and meet new people! 
+              Some of my hobbies include: playing games, crocheting, and watching cat videos. ฅ^•ﻌ•^ฅ 
               Feel free to send me an email or connect with me on LinkedIn!
             </p>
           </div>

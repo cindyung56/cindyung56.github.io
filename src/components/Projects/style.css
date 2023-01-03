@@ -87,10 +87,10 @@
 }
 
 .project-description h2 {
-  color: white;
+  color: #444;
   text-transform: uppercase;
   letter-spacing: 3px;
-  border: 2px solid white;
+  border: 2px solid #444;
   background-color: #b8e0d4;
 }
 
