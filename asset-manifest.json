@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.55bc93b8.css",
-    "main.js": "/static/js/main.65632880.js",
+    "main.css": "/static/css/main.191b2d48.css",
+    "main.js": "/static/js/main.1f8d9732.js",
     "static/js/787.3be9ce3a.chunk.js": "/static/js/787.3be9ce3a.chunk.js",
     "static/media/blossom-from-unsplash.jpg": "/static/media/blossom-from-unsplash.8aafc0e6ad6b6fc3e1c9.jpg",
     "static/media/crescent-moon-from-unsplash.jpg": "/static/media/crescent-moon-from-unsplash.6adf743275c469e7f2ca.jpg",
@@ -14,12 +14,12 @@
     "static/media/weather-dashboard.jpg": "/static/media/weather-dashboard.6f5d592dc72f9b795faa.jpg",
     "static/media/resume-creator.jpg": "/static/media/resume-creator.7eeb72813783e283cb3f.jpg",
     "index.html": "/index.html",
-    "main.55bc93b8.css.map": "/static/css/main.55bc93b8.css.map",
-    "main.65632880.js.map": "/static/js/main.65632880.js.map",
+    "main.191b2d48.css.map": "/static/css/main.191b2d48.css.map",
+    "main.1f8d9732.js.map": "/static/js/main.1f8d9732.js.map",
     "787.3be9ce3a.chunk.js.map": "/static/js/787.3be9ce3a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.55bc93b8.css",
-    "static/js/main.65632880.js"
+    "static/css/main.191b2d48.css",
+    "static/js/main.1f8d9732.js"
   ]
 }
