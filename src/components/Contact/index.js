@@ -17,7 +17,7 @@ export default function Contact() {
       <section className="content contact-content" id="contact">
         <h2 className="content-text contact-title">Contact Me!</h2>
         <div className="contact-div">
-          <a href="https://drive.google.com/file/d/1OeVFoVRKXn9i_JDKsUDlBcIf-t4wlAp-/view?usp=sharing">
+          <a href="https://drive.google.com/file/d/1Ng3bpd7l-GkhCnhJgHNfIC_sskG_oGvl/view?usp=share_link">
             <button className="contact-btn" id="resume">
               <FontAwesomeIcon icon={faFileLines}/>{" "}
               Resume
