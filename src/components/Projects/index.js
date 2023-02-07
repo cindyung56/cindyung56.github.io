@@ -1,8 +1,11 @@
+// importing libraries and components
 import React from "react";
 import { Parallax } from "react-parallax";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faLink } from "@fortawesome/free-solid-svg-icons";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
+
+// importing images
 import beachPic from "../../images/beach-from-unsplash.jpg";
 import pikachuPic from "../../images/pikachu.jpg";
 import foodAdventure from "../../images/food-adventure.jpg";
@@ -38,6 +41,7 @@ export default function Projects() {
                 create Pokemon-themed profiles, take a quiz to determine their
                 Pokemon, and match with other users to battle (or chat).
               </p>
+              <button className="more-info-btn">MORE INFO</button>
             </div>
           </section>
 
@@ -56,6 +60,7 @@ export default function Projects() {
                 form using a prebuilt resume template. No more having to create
                 your own: just have the application do it for you!
               </p>
+              <button className="more-info-btn">MORE INFO</button>
             </div>
           </section>
 
@@ -75,6 +80,7 @@ export default function Projects() {
                 their zip code and submit it to get quick and easy
                 recommendations for restaurants around the area.
               </p>
+              <button className="more-info-btn">MORE INFO</button>
             </div>
           </section>
 
@@ -93,6 +99,7 @@ export default function Projects() {
                 city's current weather conditions and forecast for the next 5
                 days using the OpenWeather API.
               </p>
+              <button className="more-info-btn">MORE INFO</button>
             </div>
           </section>
 
@@ -111,6 +118,7 @@ export default function Projects() {
                 coding thoughts or questions, and comment on other people's
                 posts.
               </p>
+              <button className="more-info-btn">MORE INFO</button>
             </div>
           </section>
 
@@ -129,6 +137,7 @@ export default function Projects() {
                 keep track of orders, cart items, and products using a global
                 store state.
               </p>
+              <a href=""><button className="more-info-btn">MORE INFO</button></a>
             </div>
           </section>
         </div>

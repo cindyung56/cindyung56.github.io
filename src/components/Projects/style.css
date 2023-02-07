@@ -91,12 +91,37 @@
   text-transform: uppercase;
   letter-spacing: 3px;
   border: 2px solid #444;
+  border-radius: 10px;
   background-color: #b8e0d4;
 }
 
 .project-description p {
   font-size: 1.2rem;
 }
+
+.more-info-btn{
+  font-size: 1rem;
+  padding: 5px;
+  border-radius: 10px;
+  cursor: pointer;
+  margin: 5px 0;
+  color: #444;
+  font-weight: bold;
+  border: 1px solid #444;
+}
+
+.more-info-btn:hover{
+  color: white;
+}
+
+.even-project .more-info-btn{
+  background-color: #95b8d1;
+}
+
+.odd-project .more-info-btn{
+  background-color: #eac4d5;
+}
+
 
 .odd-project {
   box-shadow: 7px -7px #eac4d5;
