@@ -71,6 +71,7 @@
   opacity: 0.2;
 }
 
+
 .project-card:hover .project-description {
   opacity: 1;
 }
@@ -104,10 +105,10 @@
   padding: 5px;
   border-radius: 10px;
   cursor: pointer;
-  margin: 5px 0;
   color: #444;
-  font-weight: bold;
+  /* font-weight: bold; */
   border: 1px solid #444;
+  text-decoration: none;
 }
 
 .more-info-btn:hover{

@@ -4,6 +4,7 @@ import { Parallax } from "react-parallax";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faLink } from "@fortawesome/free-solid-svg-icons";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
+import { Link } from "react-router-dom";
 
 // importing images
 import beachPic from "../../images/beach-from-unsplash.jpg";
@@ -76,9 +77,7 @@ export default function Projects() {
               </a>
               <p>
                 A front-end web application to choose a restaurant for when
-                you're feeling indecisive and hungry. Allows users to insert
-                their zip code and submit it to get quick and easy
-                recommendations for restaurants around the area.
+                you're feeling indecisive and hungry.
               </p>
               <button className="more-info-btn">MORE INFO</button>
             </div>
@@ -96,7 +95,7 @@ export default function Projects() {
               </a>
               <p>
                 A front-end application of a weather dashboard that shows a
-                city's current weather conditions and forecast for the next 5
+                city's weather forecast for the next 5
                 days using the OpenWeather API.
               </p>
               <button className="more-info-btn">MORE INFO</button>
@@ -137,7 +136,7 @@ export default function Projects() {
                 keep track of orders, cart items, and products using a global
                 store state.
               </p>
-              <a href=""><button className="more-info-btn">MORE INFO</button></a>
+              <Link to="/shop-shop" className="more-info-btn">MORE INFO</Link>
             </div>
           </section>
         </div>
