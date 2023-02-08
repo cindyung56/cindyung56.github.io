@@ -16,7 +16,7 @@ export default function Home() {
         <div className="content-text">
           <h3>Welcome to Cindy's Portfolio!</h3>
           <hr />
-          <p>UX-Focused Web Developer</p>
+          <p>Full Stack Web Developer</p>
         </div>
       </div>
     </Parallax>

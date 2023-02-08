@@ -42,7 +42,7 @@ export default function Projects() {
                 create Pokemon-themed profiles, take a quiz to determine their
                 Pokemon, and match with other users to battle (or chat).
               </p>
-              <button className="more-info-btn">MORE INFO</button>
+              <Link to="/i-choose-you" className="more-info-btn">MORE INFO</Link>
             </div>
           </section>
 
@@ -61,7 +61,7 @@ export default function Projects() {
                 form using a prebuilt resume template. No more having to create
                 your own: just have the application do it for you!
               </p>
-              <button className="more-info-btn">MORE INFO</button>
+              <Link to="/resume-creator" className="more-info-btn">MORE INFO</Link>
             </div>
           </section>
 
@@ -79,7 +79,7 @@ export default function Projects() {
                 A front-end web application to choose a restaurant for when
                 you're feeling indecisive and hungry.
               </p>
-              <button className="more-info-btn">MORE INFO</button>
+              <Link to="/food-adventure" className="more-info-btn">MORE INFO</Link>
             </div>
           </section>
 
@@ -98,7 +98,7 @@ export default function Projects() {
                 city's weather forecast for the next 5
                 days using the OpenWeather API.
               </p>
-              <button className="more-info-btn">MORE INFO</button>
+              <Link to="/weather-dashboard" className="more-info-btn">MORE INFO</Link>
             </div>
           </section>
 
@@ -117,7 +117,7 @@ export default function Projects() {
                 coding thoughts or questions, and comment on other people's
                 posts.
               </p>
-              <button className="more-info-btn">MORE INFO</button>
+              <Link to="/tech-blog" className="more-info-btn">MORE INFO</Link>
             </div>
           </section>
 
