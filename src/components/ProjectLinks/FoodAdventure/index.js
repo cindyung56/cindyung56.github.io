@@ -1,8 +1,10 @@
 import React from "react";
+import "./style.css";
+import { Link } from "react-router-dom";
 
 function FoodAdventure(){
     return(
-        <div>FOOD ADVENTURE</div>
+        <div className="project-body">FOOD ADVENTURE</div>
     )
 }
 
