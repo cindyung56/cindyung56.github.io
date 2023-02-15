@@ -53,6 +53,10 @@
     box-shadow: 1px 1px #444;
 }
 
+.p-link-btn:active, .go-back:active{
+    color: white;
+}
+
 .p-description{
     margin: 20px 0;
 }
