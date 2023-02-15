@@ -1,11 +1,17 @@
 import React from "react";
+import { Link } from "react-router-dom";
+import "react-responsive-carousel/lib/styles/carousel.min.css";
+import { Carousel } from "react-responsive-carousel";
+
 import "./style.css";
 import "../project-style.css";
-import { Link } from "react-router-dom";
-
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faLink } from "@fortawesome/free-solid-svg-icons";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
+
+// import images
+import foodAdv1 from "./images/fa1.png";
+import foodAdv2 from "./images/fa2.png";
 
 export default function FoodAdventure() {
   return (
@@ -76,10 +82,39 @@ export default function FoodAdventure() {
           results page also includes directions from the user's current location
           to the restaurant.
         </p>
+        <div className="carousel-div">
+          <Carousel className="carousel" axis="horizontal" showArrows={false}>
+            <div>
+              <img src={foodAdv1} alt="food adventure home page" />
+            </div>
+            <div>
+              <img src={foodAdv2} alt="food adventure questionnaire form" />
+            </div>
+          </Carousel>
+        </div>
+        <h2>RESPONSIBILITIES</h2>
+        <p>
+          I worked as a front-end developer on this website, primarily working
+          on the questionnaire for dietary and budget preferences. As a group we
+          thought of this feature for users who may be vegan or vegetarian, or
+          may have specific allergies or dietary restrictions that prevent them
+          from enjoying certain types of cuisines. Furthermore, we also thought
+          budget and pricing would influence users' choices. On the website, the
+          form is initially hidden from view when the page is first loaded. It
+          is displayed when the "Choose preferences" button is clicked, hiding
+          the zip code input container instead. This creates a seamless, smooth
+          transition between each section without having to make new pages.
+        </p>
 
-        <h2>INSERT CAROUSEL HERE</h2>
-
-        <p>I worked as a front-end developer on this website, </p>
+        <p>
+          When the website generates three random places, the user can choose
+          one and the website will change to another page. This page will
+          display information about the restaurant for the user to review. I
+          worked together with a fellow team member to create this page. My goal
+          was to implement and display the fetched data from the Yelp API to
+          populate the results page with information about the chosen
+          restaurant. 
+        </p>
       </div>
     </div>
   );
