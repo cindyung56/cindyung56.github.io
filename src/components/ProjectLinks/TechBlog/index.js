@@ -15,7 +15,7 @@ export default function TechBlog(){
         <Link to="/" className="go-back">
           {"<"} BACK
         </Link>
-        <h1 className="p-heading">I Choose You!</h1>
+        <h1 className="p-heading">Tech Blog</h1>
       </div>
       <div className="p-links">
         <a href="" target="_blank" rel="noreferrer" className="p-link-btn">
@@ -31,8 +31,8 @@ export default function TechBlog(){
       <div className="p-description">
         <ul>
           <li>
-            <b>Languages/Libraries/Frameworks Used:</b> React.js, express.js,
-            MongoDB, mongoose, Apollo Server, GraphQL,
+            <b>Languages/Libraries/Frameworks Used:</b> HTML, CSS, JavaScript, express.js,
+            MongoDB, mongoose
             react-responsive-carousel, react-bootstrap
           </li>
           <li>

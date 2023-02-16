@@ -56,10 +56,31 @@ export default function IChooseYou() {
             react-responsive-carousel, react-bootstrap
           </li>
           <li>
-            <b>APIs Used:</b> <a href="https://pokeapi.co/about">PokéAPI</a>
+            <b>APIs Used:</b>{" "}
+            <a href="https://pokeapi.co/about" className="external-link">
+              PokéAPI
+            </a>
           </li>
           <li>
-            <b>Group Members:</b> 4
+            <b>Group:</b> Team Rocket (
+            <a
+              href="https://github.com/a-riveragonzalez"
+              className="external-link"
+            >
+              Arely Rivera-Gonzalez
+            </a>
+            ,{" "}
+            <a href="https://github.com/ffjt07" className="external-link">
+              Jeremiah Torbit
+            </a>
+            ,{" "}
+            <a
+              href="https://github.com/Spider-Man616"
+              className="external-link"
+            >
+              Andre Martinez
+            </a>
+            )
           </li>
           <li>
             <b>Website Description:</b> A responsive MERN dating web application
@@ -167,16 +188,16 @@ export default function IChooseYou() {
           scope small for our minimum viable product, deciding to use the main
           elemental triangle of Fire, Water, and Grass. Hence, all questions
           also had three options each - and they were attributed to one of the
-          three types. These were also stored in the MongoDB database.
-          Once a user chose a question, I made the application keep track of
-          what type that answer was using three React states for each type. When
-          the user completed the quiz, a function is called to calculate how
-          many points they received overall in each type. Whichever type had the
-          highest number of points would be considered the final Pokemon type
-          for the user! If there is a tie, the program will randomly choose
-          between the top two types. I created all of the functions to calculate
-          everything and also assign the Pokemon type to the user's information,
-          which is then stored in the database!
+          three types. These were also stored in the MongoDB database. Once a
+          user chose a question, I made the application keep track of what type
+          that answer was using three React states for each type. When the user
+          completed the quiz, a function is called to calculate how many points
+          they received overall in each type. Whichever type had the highest
+          number of points would be considered the final Pokemon type for the
+          user! If there is a tie, the program will randomly choose between the
+          top two types. I created all of the functions to calculate everything
+          and also assign the Pokemon type to the user's information, which is
+          then stored in the database!
         </p>
       </div>
     </div>

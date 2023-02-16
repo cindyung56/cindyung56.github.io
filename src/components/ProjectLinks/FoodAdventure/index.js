@@ -50,13 +50,20 @@ export default function FoodAdventure() {
             <b>Languages Used:</b> HTML, CSS, JavaScript
           </li>
           <li>
-            <b>APIs Used:</b> <a href="https://thezipcodes.com/">TheZipCodes</a>, Yelp, Google Maps
+            <b>APIs Used:</b>{" "}
+            <a href="https://thezipcodes.com/" className="external-link">
+              TheZipCodes
+            </a>
+            , Yelp, Google Maps
           </li>
           <li>
-            <b>Group Members:</b> 4
+            <b>Group:</b> <a href="https://github.com/Sam-T-G" className="external-link">Sam Gerungan</a>,{" "}
+            <a href="https://github.com/cwendland" className="external-link">Christopher Wendland</a>,{" "}
+            <a href="https://github.com/latifah2022" className="external-link">Latifah Zawedde</a>
           </li>
           <li>
-            <b>Website Description:</b> An application to choose a restaurant for when you're feeling indecisive and hungry.
+            <b>Website Description:</b> An application to choose a restaurant
+            for when you're feeling indecisive and hungry.
           </li>
         </ul>
 
@@ -101,18 +108,19 @@ export default function FoodAdventure() {
         <h2>RESPONSIBILITIES</h2>
         <p>
           I worked as a front-end developer on this website, primarily working
-          on the questionnaire for dietary and budget preferences. As a group, we
-          thought of this feature for users who may be vegan or vegetarian, or
-          have specific allergies or dietary restrictions that prevent them
-          from enjoying certain types of cuisines. Furthermore, we also considered
-          budget and pricing would influence users' choices. This form is implemented as an
-          initially hidden div container when the page is first loaded. It
-          is displayed only when the "Choose preferences" button is clicked, hiding
-          the zip code input div container instead. This creates a seamless, smooth
-          transition between each section without having to make new pages. I also was in charge
-          of saving this information to the browser's local storage; this decision was made because
-          we thought of recurring users who would want to reuse this application but not want to
-          input their data all over again.
+          on the questionnaire for dietary and budget preferences. As a group,
+          we thought of this feature for users who may be vegan or vegetarian,
+          or have specific allergies or dietary restrictions that prevent them
+          from enjoying certain types of cuisines. Furthermore, we also
+          considered budget and pricing would influence users' choices. This
+          form is implemented as an initially hidden div container when the page
+          is first loaded. It is displayed only when the "Choose preferences"
+          button is clicked, hiding the zip code input div container instead.
+          This creates a seamless, smooth transition between each section
+          without having to make new pages. I also was in charge of saving this
+          information to the browser's local storage; this decision was made
+          because we thought of recurring users who would want to reuse this
+          application but not want to input their data all over again.
         </p>
 
         <p>
@@ -122,12 +130,14 @@ export default function FoodAdventure() {
           worked together with a fellow team member to create this page. My goal
           was to implement and display the fetched data from the Yelp API to
           populate the results page with information about the chosen
-          restaurant. I displayed the first three reviews in the bottom section along with
-          the users' ratings and a snippet of their overall review. This was unfortunately a limitation
-          using the Yelp API, as the GET request did not provide the entire review in the data.
-          I also added the restaurant's location and contact information in the "Call" and "Directions" sections.
-          As a group, we used Google Maps to obtain the user's current location through the browser, and dropped
-          two points from the user to the restaurant address.
+          restaurant. I displayed the first three reviews in the bottom section
+          along with the users' ratings and a snippet of their overall review.
+          This was unfortunately a limitation using the Yelp API, as the GET
+          request did not provide the entire review in the data. I also added
+          the restaurant's location and contact information in the "Call" and
+          "Directions" sections. As a group, we used Google Maps to obtain the
+          user's current location through the browser, and dropped two points
+          from the user to the restaurant address.
         </p>
       </div>
     </div>

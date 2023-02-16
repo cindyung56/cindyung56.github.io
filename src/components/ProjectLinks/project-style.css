@@ -98,3 +98,8 @@
 .team-img{
     text-align: center;
 }
+
+.external-link{
+    color: #85255d;
+    /* text-decoration: none; */
+}

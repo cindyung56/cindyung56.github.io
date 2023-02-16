@@ -6,7 +6,7 @@ import FoodAdventure from "./components/ProjectLinks/FoodAdventure";
 import IChooseYou from "./components/ProjectLinks/IChooseYou";
 import ResumeCreator from "./components/ProjectLinks/ResumeCreator";
 import WeatherDashboard from "./components/ProjectLinks/WeatherDashboard";
-import ShopShop from "./components/ProjectLinks/ShopShop";
+import TypeIndex from "./components/ProjectLinks/TypeIndex";
 import TechBlog from "./components/ProjectLinks/TechBlog";
 
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
@@ -25,7 +25,7 @@ function App() {
           <Route path="/i-choose-you" element={<IChooseYou />} />
           <Route path="/resume-creator" element={<ResumeCreator />} />
           <Route path="/weather-dashboard" element={<WeatherDashboard />} />
-          <Route path="/shop-shop" element={<ShopShop />} />
+          <Route path="/pokemon-type" element={<TypeIndex />} />
           <Route path="/tech-blog" element={<TechBlog />} />
         </Routes>
       </div>
