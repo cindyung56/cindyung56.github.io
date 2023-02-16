@@ -8,9 +8,12 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faLink } from "@fortawesome/free-solid-svg-icons";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
 
-export default function ResumeCreator(){
-    return(
-        <div className="project-body">
+// importing images
+import teamPic from "./images/team.png";
+
+export default function ResumeCreator() {
+  return (
+    <div className="project-body">
       <div className="head-section">
         <Link to="/" className="go-back">
           {"<"} BACK
@@ -18,11 +21,21 @@ export default function ResumeCreator(){
         <h1 className="p-heading">Resume Creator</h1>
       </div>
       <div className="p-links">
-        <a href="" target="_blank" rel="noreferrer" className="p-link-btn">
+        <a
+          href="https://fierce-ravine-29010.herokuapp.com/"
+          target="_blank"
+          rel="noreferrer"
+          className="p-link-btn"
+        >
           <FontAwesomeIcon icon={faLink} />
           {"  "}Website
         </a>
-        <a href="" target="_blank" rel="noreferrer" className="p-link-btn">
+        <a
+          href="https://github.com/cindyung56/resume-creator"
+          target="_blank"
+          rel="noreferrer"
+          className="p-link-btn"
+        >
           <FontAwesomeIcon icon={faGithub} />
           {"  "}GitHub
         </a>
@@ -31,27 +44,40 @@ export default function ResumeCreator(){
       <div className="p-description">
         <ul>
           <li>
-            <b>Languages/Libraries/Frameworks Used:</b> React.js, express.js,
-            MongoDB, mongoose, Apollo Server, GraphQL,
-            react-responsive-carousel, react-bootstrap
+            <b>Languages/Libraries/Frameworks Used:</b> HTML, CSS, JavaScript,
+            jQuery, Handlebars.js, express.js, MySQL, Sequelize
           </li>
           <li>
-            <b>APIs Used:</b> <a href="https://pokeapi.co/about">PokéAPI</a>
+            <b>Group:</b> Anonymous Dinosaurs (4 members)
           </li>
           <li>
-            <b>Group Members:</b> 4
-          </li>
-          <li>
-            <b>Website Description:</b> A MERN web application made for Pokémon
-            fans by Pokémon fans! Meet new people, chat with them, and maybe
-            your relationship will turn into something much more.
+            <b>Website Description:</b> Create a simple and interactive resume
+            application that everyone can use. Our application provides a simple
+            form for you to fill out, and templates to style your resume from.
           </li>
         </ul>
 
-        <h2> ABOUT </h2>
-        <p>DESC GOES HERE</p>
+        <p className="team-img">
+          <img src={teamPic} alt="team pic" />
+        </p>
 
-        <p>DESC GOES HERE</p>
+        <h2> ABOUT </h2>
+        <p>
+          Resume Creator is a full-stack application that generates a resume on
+          the browser. Upon logging in, the user fills out a form about their
+          experience and contact information. This includes professional
+          experiences and opportunities, education, and personal skills. The
+          user can also choose a template to style their resume. Once the form
+          is submitted, the application will generate a web based resume with
+          all of the information they inputted in an easy to read format,
+          without having to deal with the styling themselves!
+        </p>
+
+        <p>
+          Anonymous Dinosaurs created this application for job seekers looking
+          for resume design templates and the ability to preview their
+          experiences and information in a premade format.
+        </p>
         <div className="carousel-div">
           CAROUSEL GOES HERE
           {/* <Carousel className="carousel" axis="horizontal" showArrows={false}>
@@ -69,5 +95,5 @@ export default function ResumeCreator(){
         <p>DESC GOES HERE</p>
       </div>
     </div>
-    )
+  );
 }
