@@ -132,7 +132,9 @@ export default function IChooseYou() {
             </div>
             <div>
               <img src={chooseImg5} alt="i choose you sign up" />
-              <p className="legend">Quiz result page</p>
+              <p className="legend">
+                Quiz result page, assigned a random starter Pokemon of this type
+              </p>
             </div>
             <div>
               <img src={chooseImg6} alt="i choose you sign up" />
@@ -140,25 +142,39 @@ export default function IChooseYou() {
             </div>
             <div>
               <img src={chooseImg7} alt="i choose you sign up" />
-              <p className="legend">Matches page</p>
+              <p className="legend">
+                User gets matched with three random users
+              </p>
             </div>
             <div>
               <img src={chooseImg8} alt="i choose you sign up" />
-              <p className="legend">"Battling" with another user</p>
+              <p className="legend">
+                "Battling" (aka chatting) with another user
+              </p>
             </div>
           </Carousel>
         </div>
         <h2>RESPONSIBILITIES</h2>
-        <h3>Quiz Page</h3>
         <p>
           As one of the full-stack developers working on this website, I made my
-          mark both on the back-end and front-end areas of the application. My
-          biggest contribution was the Quiz page that new users see immediately
-          after signing up. One of the main concepts of our page was the feature
-          to assign a Pokemon to each user based on their personality type; this
-          is similar to the personality quiz that is prominently featured in the
-          Pokemon Mystery Dungeon series. I was in charge of creating the Quiz
-          page and displaying all of the questions on the site in a fun manner.
+          mark both on the backend and frontend areas of the application. My
+          group was amazing to work with and we always had fun. We all knew how
+          to work hard and play even harder. We collaborated on the backend by
+          making all of the resolver functions and models together, so we could
+          spend more time focusing on the frontend using React. We also took the
+          time to help each other out with each person's respective assigned
+          tasks, whether it was by testing the functionalities or trying to
+          debug code.
+        </p>
+
+        <p>
+          My biggest contribution was the Quiz page that new users see
+          immediately after signing up. One of the main concepts of our page was
+          the feature to assign a Pokemon to each user based on their
+          personality type; this is similar to the personality quiz that is
+          prominently featured in the Pokemon Mystery Dungeon series. I was in
+          charge of creating the Quiz page and displaying all of the questions
+          on the site in a fun manner.
         </p>
 
         <p>
@@ -198,6 +214,30 @@ export default function IChooseYou() {
           top two types. I created all of the functions to calculate everything
           and also assign the Pokemon type to the user's information, which is
           then stored in the database!
+        </p>
+
+        <h2>FUTURE UPDATES</h2>
+
+        <p>
+          This is an ongoing project, which will actually have a couple more
+          changes than just debugging issues. Arely and I have decided to
+          continue working on I Choose You! to make it a social media
+          application for Pokemon fans, rather than a dating app. This isn't to
+          say we are abandoning our roots, but after feedback from other
+          industry professionals, we decided to build on top of what we
+          currently have. Some things we are planning on implementing in the future include:
+          <ul>
+            <li>
+              <b>A dedicated home page</b> describing our website's features and
+              providing information about what we do. This is for people who may
+              be hesitant on signing up or just want to see what we have to
+              offer!
+            </li>
+            <li><b>More Pokemon types</b> to include the remaining 15 types we did not include in our MVP.</li>
+            <li><b>Instant chat messaging.</b> Our current chat system is more akin to posting comments on a page. We would like
+              to switch over to instant messaging for a better experience, and we are planning on implementing socket.io for this purpose.
+            </li>
+          </ul>
         </p>
       </div>
     </div>

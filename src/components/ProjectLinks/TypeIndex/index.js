@@ -124,8 +124,7 @@ export default function TypeIndex() {
               <img src={typeIndex4} alt="type index shiny toggle" />
               <p className="legend">
                 Press the switch to toggle between the Pokémon's original form
-                and shiny form! (Shiny Eevee is silver, compared to its original
-                brown)
+                and shiny form! (Shiny Eevee is silver, original is brown)
               </p>
             </div>
           </Carousel>
@@ -180,10 +179,10 @@ export default function TypeIndex() {
         <p>
           This code allowed the program to insert the type in the template
           literal, so the className would appear as 'fire-type' or 'water-type'
-          on React, which then would apply the appropriate CSS to each word! I
+          on React. Then the app would apply the appropriate CSS property to each word. I
           was particularly proud of this achievement, as it allowed me to apply
-          the DRY (Don't Repeat Yourself) concept while also using the .map()
-          function to display each type and apply the appropriate CSS without
+          the DRY (Don't Repeat Yourself) principle while also using the .map()
+          function to do everything at once without
           having to use any complicated conditional statements.
         </p>
       </div>

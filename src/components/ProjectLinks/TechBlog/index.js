@@ -9,6 +9,11 @@ import { faLink } from "@fortawesome/free-solid-svg-icons";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
 
 //import images
+import techBlog1 from "./images/tb1.jpg";
+import techBlog2 from "./images/tb2.jpg";
+import techBlog3 from "./images/tb3.jpg";
+import techBlog4 from "./images/tb4.jpg";
+import techBlog5 from "./images/tb5.jpg";
 
 export default function TechBlog() {
   return (
@@ -20,11 +25,11 @@ export default function TechBlog() {
         <h1 className="p-heading">Tech Blog</h1>
       </div>
       <div className="p-links">
-        <a href="" target="_blank" rel="noreferrer" className="p-link-btn">
+        <a href="https://salty-earth-22984.herokuapp.com/" target="_blank" rel="noreferrer" className="p-link-btn">
           <FontAwesomeIcon icon={faLink} />
           {"  "}Website
         </a>
-        <a href="" target="_blank" rel="noreferrer" className="p-link-btn">
+        <a href="https://github.com/cindyung56/tech-blog" target="_blank" rel="noreferrer" className="p-link-btn">
           <FontAwesomeIcon icon={faGithub} />
           {"  "}GitHub
         </a>
@@ -56,16 +61,34 @@ export default function TechBlog() {
           to post random thoughts about technology, anything goes on this blog!
         </p>
 
-        {/* <div className="carousel-div">
+        <div className="carousel-div">
           <Carousel className="carousel" axis="horizontal" showArrows={false}>
             <div>
-              <img src={foodAdv1} alt="food adventure home page" />
+              <img src={techBlog1} alt="tech blog home page" />
+              <p className="legend">Home page with all recent posts</p>
             </div>
             <div>
-              <img src={foodAdv2} alt="food adventure questionnaire form" />
+              <img src={techBlog2} alt="tech blog login" />
+              <p className="legend">
+                Login page, with an option to switch to sign up
+              </p>
+            </div>
+            <div>
+              <img src={techBlog3} alt="tech blog dashboard" />
+              <p className="legend">
+                User dashboard upon logging in, shows all user's posts
+              </p>
+            </div>
+            <div>
+              <img src={techBlog4} alt="tech blog edit post" />
+              <p className="legend">Edit an exisiting post, or delete it</p>
+            </div>
+            <div>
+              <img src={techBlog5} alt="tech blog comment" />
+              <p className="legend">Users can comment on someone else's post</p>
             </div>
           </Carousel>
-        </div> */}
+        </div>
         <h2>RESPONSIBILITIES</h2>
         <p>
           As the sole creator of this blog, there were a lot of things to
@@ -79,10 +102,25 @@ export default function TechBlog() {
           a Handlebars.js file that displayed all comments in each individual
           post using a template and the{" "}
           <span className="code-snippet">.map()</span> function, which took the
-          array of comments and made div containers for each and every one.
+          array and made div containers for each and every Comment under a Post.
+          All posts were able to be edited, so PUT and DELETE requests were
+          necessary to make sure the database was appropriately updated with the
+          correct information. The backend was entirely made from scratch and
+          very fun to work on; working on this project allowed me to really hone
+          down on how the relationships between each model functioned and what
+          was the best course of action to make all functions work.
         </p>
 
-        <p>DESC GOES HERE</p>
+        <p>
+          One aspect that I sometimes take for granted is the ability to do
+          event delegation in JavaScript. I specifically had problems that did
+          not allow me to choose on a specific post while on the home page or
+          user dashboard, despite the other functions and the API working
+          properly. It was only after some more testing that I realized I needed
+          to use event delegation to determine the specific target I wanted to
+          edit. It was a great learning experience and it helped me fully
+          understand why event delegation is so important.
+        </p>
       </div>
     </div>
   );
