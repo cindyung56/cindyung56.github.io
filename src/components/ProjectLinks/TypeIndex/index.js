@@ -169,11 +169,23 @@ export default function TypeIndex() {
           some users to tell them apart than just reading the text. In CSS, I
           represented the 18 colors by creating respective classes for each (for
           example, the 'fire-type' class would have an orange-red background
-          color). Then in the React component where each type would be displayed, I created code to utilize the type's name
-          in a template for the element's class. Code snippet below:
+          color, 'water-type' class would be a blue background, etc.). Then, in
+          the PokeCard React component where each type would be displayed in
+          their respective cards, I created a template literal to include the
+          type in the className attribute:
         </p>
 
-        <p></p>
+        <p className="code-snippet">{"className=`poke-type ${type}-type`"}</p>
+
+        <p>
+          This code allowed the program to insert the type in the template
+          literal, so the className would appear as 'fire-type' or 'water-type'
+          on React, which then would apply the appropriate CSS to each word! I
+          was particularly proud of this achievement, as it allowed me to apply
+          the DRY (Don't Repeat Yourself) concept while also using the .map()
+          function to display each type and apply the appropriate CSS without
+          having to use any complicated conditional statements.
+        </p>
       </div>
     </div>
   );
