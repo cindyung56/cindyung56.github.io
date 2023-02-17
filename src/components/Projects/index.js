@@ -1,15 +1,20 @@
+// importing libraries and components
 import React from "react";
 import { Parallax } from "react-parallax";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faLink } from "@fortawesome/free-solid-svg-icons";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
+import { Link } from "react-router-dom";
+
+// importing images
 import beachPic from "../../images/beach-from-unsplash.jpg";
 import pikachuPic from "../../images/pikachu.jpg";
 import foodAdventure from "../../images/food-adventure.jpg";
 import resumeCreator from "../../images/resume-creator.jpg";
 import weatherDashboard from "../../images/weather-dashboard.jpg";
 import techBlog from "../../images/tech-blog.jpg";
-import reduxStore from "../../images/redux-store.jpg";
+// import reduxStore from "../../images/redux-store.jpg";
+import typeIndexPic from "../../images/type-index.jpg";
 import "./style.css";
 
 export default function Projects() {
@@ -35,9 +40,12 @@ export default function Projects() {
               </a>
               <p>
                 A responsive MERN dating web application that allows users to
-                create Pokemon-themed profiles, take a quiz to determine their
-                Pokemon, and match with other users to battle (or chat).
+                create Pokémon-themed profiles, take a quiz to determine their
+                Pokémon, and match with other users to battle (or chat).
               </p>
+              <Link to="/i-choose-you" className="more-info-btn">
+                MORE INFO
+              </Link>
             </div>
           </section>
 
@@ -56,6 +64,9 @@ export default function Projects() {
                 form using a prebuilt resume template. No more having to create
                 your own: just have the application do it for you!
               </p>
+              <Link to="/resume-creator" className="more-info-btn">
+                MORE INFO
+              </Link>
             </div>
           </section>
 
@@ -71,10 +82,11 @@ export default function Projects() {
               </a>
               <p>
                 A front-end web application to choose a restaurant for when
-                you're feeling indecisive and hungry. Allows users to insert
-                their zip code and submit it to get quick and easy
-                recommendations for restaurants around the area.
+                you're feeling indecisive and hungry.
               </p>
+              <Link to="/food-adventure" className="more-info-btn">
+                MORE INFO
+              </Link>
             </div>
           </section>
 
@@ -90,9 +102,12 @@ export default function Projects() {
               </a>
               <p>
                 A front-end application of a weather dashboard that shows a
-                city's current weather conditions and forecast for the next 5
-                days using the OpenWeather API.
+                city's weather forecast for the next 5 days using the
+                OpenWeather API.
               </p>
+              <Link to="/weather-dashboard" className="more-info-btn">
+                MORE INFO
+              </Link>
             </div>
           </section>
 
@@ -111,24 +126,30 @@ export default function Projects() {
                 coding thoughts or questions, and comment on other people's
                 posts.
               </p>
+              <Link to="/tech-blog" className="more-info-btn">
+                MORE INFO
+              </Link>
             </div>
           </section>
 
           <section className="project-card even-project">
-            <img src={reduxStore} alt="Redux Store"></img>
+            <img src={typeIndexPic} alt="Pokemon Type Index"></img>
             <div className="project-description">
-              <h2>Shop-Shop</h2>
-              <a href="https://protected-chamber-30832.herokuapp.com">
+              <h2>Pokémon Type Index</h2>
+              <a href="https://pokemon-stats.herokuapp.com">
                 <FontAwesomeIcon className="project-icon" icon={faLink} />
               </a>
-              <a href="https://github.com/cindyung56/redux-store">
+              <a href="https://github.com/mladame/pokemon-type-index">
                 <FontAwesomeIcon className="project-icon" icon={faGithub} />
               </a>
               <p>
-                A MERN ecommerce web application using React.js and Redux to
-                keep track of orders, cart items, and products using a global
-                store state.
+                A Pokémon website that allows users to search for a Pokémon and
+                view its sprite, shiny form, weaknesses, strengths, and
+                immunities.
               </p>
+              <Link to="/pokemon-type" className="more-info-btn">
+                MORE INFO
+              </Link>
             </div>
           </section>
         </div>

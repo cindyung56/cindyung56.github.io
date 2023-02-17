@@ -1,5 +1,5 @@
 .projects-parallax {
-  height: 120vh;
+  height: 130vh;
 }
 
 .content {
@@ -24,7 +24,7 @@
   width: 350px;
   height: 350px;
   background-color: #d6eadf;
-  margin: 10px 0;
+  margin: 20px 0;
   position: relative;
   box-shadow: 7px -7px #eac4d5;
 }
@@ -71,6 +71,7 @@
   opacity: 0.2;
 }
 
+
 .project-card:hover .project-description {
   opacity: 1;
 }
@@ -88,15 +89,43 @@
 
 .project-description h2 {
   color: #444;
+  font-size: 1.2rem;
   text-transform: uppercase;
   letter-spacing: 3px;
   border: 2px solid #444;
+  border-radius: 10px;
   background-color: #b8e0d4;
+  font-weight: bold;
 }
 
 .project-description p {
-  font-size: 1.2rem;
+  font-size: 1rem;
+  margin: 10px;
 }
+
+.more-info-btn{
+  font-size: 1rem;
+  padding: 5px;
+  border-radius: 10px;
+  cursor: pointer;
+  color: #444;
+  font-weight: bold;
+  border: 1px solid #444;
+  text-decoration: none;
+}
+
+.more-info-btn:hover{
+  color: white;
+}
+
+.even-project .more-info-btn{
+  background-color: #95b8d1;
+}
+
+.odd-project .more-info-btn{
+  background-color: #eac4d5;
+}
+
 
 .odd-project {
   box-shadow: 7px -7px #eac4d5;
@@ -160,23 +189,22 @@
 
 @media screen and (max-width: 1049px) {
   .projects-parallax {
-    height: 150vh;
+    height: 160vh;
   }
 }
 
 @media screen and (max-width: 768px) {
   .projects-parallax {
-    height: 109vh;
+    height: 160vh;
   }
 
   .project-card {
-    width: 200px;
-    height: 200px;
+    width: 45%;
   }
   .project-description h2 {
     font-size: 1em;
   }
   .project-description p {
-    display: none;
+    font-size: 1em;
   }
 }

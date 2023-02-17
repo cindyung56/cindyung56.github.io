@@ -17,20 +17,20 @@ export default function Contact() {
       <section className="content contact-content" id="contact">
         <h2 className="content-text contact-title">Contact Me!</h2>
         <div className="contact-div">
-          <a href="https://drive.google.com/file/d/1Ng3bpd7l-GkhCnhJgHNfIC_sskG_oGvl/view?usp=share_link">
+          <a href="https://drive.google.com/file/d/1pMx4VOOMCbidKkzb8zLKR8bU1W5oNqls/view?usp=sharing" target="_blank" rel="noreferrer">
             <button className="contact-btn" id="resume">
               <FontAwesomeIcon icon={faFileLines}/>{" "}
               Resume
             </button>
           </a>
-          <a href="https://www.linkedin.com/in/cindyung56/">
+          <a href="https://www.linkedin.com/in/cindyung56/" target="_blank" rel="noreferrer">
             <button className="contact-btn" id="linkedin">
             <FontAwesomeIcon icon={faLinkedin}/>{" "}
               LinkedIn
             </button>
           </a>
           <a href="mailto:cindyung56@gmail.com">
-            <button className="contact-btn" id="email">
+            <button className="contact-btn" id="email" target="_blank" rel="noreferrer">
             <FontAwesomeIcon icon={faEnvelope}/>{" "}
               Email
             </button>
