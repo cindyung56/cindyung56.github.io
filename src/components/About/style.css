@@ -30,7 +30,7 @@
 .profile-pic {
   width: auto;
   height: 100%;
-  max-height: 400px;
+  max-height: 300px;
   padding: 5px;
   border: 4px dashed white;
   border-radius: 50%;
@@ -45,7 +45,24 @@
   align-items: center;
 }
 
-.biography {
+.pics-and-socials, .biography{
+  width: 100%;
+  margin: 10px 0;
+}
+
+.biography{
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-evenly;
+}
+
+.basic-info, .summary{
+  display: inline-block;
+  width: 45%;
+  height: 100%;
+}
+
+/* .biography {
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
@@ -55,7 +72,7 @@
 .biography h2 {
   font-size: 200%;
   margin-bottom: 5px;
-}
+} */
 
 /* h2{
     color: white;
@@ -69,10 +86,11 @@ p {
 }
 
 .bio-section h2 {
-  text-shadow: 1.3px 1.3px white;
+  text-shadow: 1.5px 1.5px white;
 }
 
 .bio-section {
+  background-color: #b8e0d4;
   margin: 0px 15px 20px;
   padding: 10px;
   border-radius: 10px;
@@ -83,7 +101,7 @@ p {
   
 } */
 
-.biography div:first-child {
+/* .biography div:first-child {
   background-color: #b8e0d4;
 }
 
@@ -92,6 +110,6 @@ p {
 }
 
 .biography div:nth-child(3) {
-  /* background-color: #eac4d5; */
+  background-color: #eac4d5;
   background-color: #b8e0d4;
-}
+} */
