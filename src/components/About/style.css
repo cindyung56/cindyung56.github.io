@@ -81,35 +81,12 @@
   color: #444;
 }
 
-/* 
-.biography{
-  display: flex;
-  flex-wrap: nowrap;
-  justify-content: space-evenly;
-} */
-
 .basic-info, .summary{
   display: inline-block;
   padding: 10px;
   width: 45%;
   height: 100%;
 }
-
-/* .biography {
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: column;
-  padding: 20px;
-}
-
-.biography h2 {
-  font-size: 200%;
-  margin-bottom: 5px;
-} */
-
-/* h2{
-    color: white;
-} */
 
 h2,
 h3,
@@ -141,4 +118,13 @@ p {
 #summary-section h2, #summary-section p{
   line-height: 1.7rem;
   width: 100%;
+}
+
+.social-links li a {
+  text-decoration: none;
+  color: #444;
+}
+
+.social-links li:first-child{
+  border-right: 10px solid #809bce;
 }

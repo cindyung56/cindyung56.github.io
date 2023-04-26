@@ -20,9 +20,10 @@ export default function About() {
           <img src={profilePic} className="profile-pic" alt="profile"></img>
           <div className="social-media-container">
             <ul className="social-links">
-              <li>LinkedIn</li>
-              <li>GitHub</li>
-              <li>Resume</li>
+              <li><a href="https://www.linkedin.com/in/cindyung56/" target="_blank">LinkedIn</a></li>
+              <li><a href="https://github.com/cindyung56" target="_blank">GitHub</a></li>
+              <li><a href="https://drive.google.com/file/d/1pMx4VOOMCbidKkzb8zLKR8bU1W5oNqls/view?usp=sharing" target="_blank">Resume</a></li>
+              <li><a href="mailto:cindyung56@gmail.com">E-Mail</a></li>
             </ul>
           </div>
         </div>
