@@ -35,12 +35,3 @@ function App() {
 
 export default App;
 
-// {/* // ROUTES */}
-// <Routes>
-// <Route path="/food-adventure" element={<FoodAdventure />} />
-// <Route path="/i-choose-you" element={<IChooseYou />} />
-// <Route path="/resume-creator" element={<ResumeCreator />} />
-// <Route path="/weather-dashboard" element={<WeatherDashboard />} />
-// <Route path="/shop-shop" element={<ShopShop />} />
-// <Route path="/tech-blog" element={<TechBlog />} />
-// </Routes>

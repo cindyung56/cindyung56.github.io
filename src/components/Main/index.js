@@ -14,7 +14,7 @@ export default function Main(){
         <div className="main-body">
           <Home />
           <About />
-          <Projects />
+
           <div className="skills-section">
             <i class="devicon-html5-plain-wordmark colored"></i>
             <i class="devicon-css3-plain-wordmark colored"></i>
@@ -34,7 +34,8 @@ export default function Main(){
             <i class="devicon-github-original colored"></i>
             <i class="devicon-heroku-original colored"></i>
           </div>
-          <Contact />
+                    <Projects />
+          {/* <Contact /> */}
           <Footer />
         </div>
       </>

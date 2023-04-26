@@ -16,8 +16,15 @@ export default function About() {
       </h1>
 
       <div className="profile">
-        <div className="pic-and-socials">
+        <div className="pics-and-socials">
           <img src={profilePic} className="profile-pic" alt="profile"></img>
+          <div className="social-media-container">
+            <ul className="social-links">
+              <li>LinkedIn</li>
+              <li>GitHub</li>
+              <li>Resume</li>
+            </ul>
+          </div>
         </div>
 
         <div className="biography">
@@ -46,18 +53,17 @@ export default function About() {
           </div>
 
           <div className="summary">
-            <div className="bio-section">
+            <div className="bio-section" id="summary-section">
               <h2>Summary</h2>
               <p>
-                Hi, I'm Cindy! I am a UX-Focused Full Stack Web Developer
-                working primarily in JavaScript and React.js. I enjoy problem
-                solving and turning my ideas into dynamic designs and
-                applications. I love collaborating with others and I believe
-                teamwork and communication is essential to success. I'm always
-                willing to learn new things and meet new people! Some of my
-                hobbies include: playing games, crocheting, and watching cat
-                videos. ฅ^•ﻌ•^ฅ Please feel free to send me an email or connect
-                with me on LinkedIn!
+                Hi, I'm Cindy! I am a Full Stack Web Developer working primarily
+                in JavaScript and React.js, with experience in UI/UX design and
+                testing. I enjoy problem solving and turning my ideas into
+                dynamic designs and applications. I love collaborating with
+                others because teamwork and communication is essential to
+                success. I'm always willing to learn new things and meet new
+                people! Some of my hobbies include: playing games, knitting,
+                crocheting, and watching cat videos. ฅ^•ﻌ•^ฅ
               </p>
             </div>
           </div>

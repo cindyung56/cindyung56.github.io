@@ -32,12 +32,12 @@ export default function Navigation() {
           </a>
         </li>
 
-        <li>
+        {/* <li>
           <a href="#contact" className="nav-link">
             <FontAwesomeIcon icon={faPhone} className="nav-icon" />
             <span className="icon-title">Contact</span>
           </a>
-        </li>
+        </li> */}
       </ul>
     </div>
   );
