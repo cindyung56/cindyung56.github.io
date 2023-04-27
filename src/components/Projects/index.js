@@ -50,7 +50,7 @@ export default function Projects() {
           </section>
 
           <section className="project-card even-project">
-            <img src={resumeCreator} alt="Food Adventure"></img>
+            <img src={resumeCreator} alt="Resume Creator"></img>
             <div className="project-description">
               <h2>Resume Creator</h2>
               <a href="https://fierce-ravine-29010.herokuapp.com/">
@@ -69,6 +69,24 @@ export default function Projects() {
               </Link>
             </div>
           </section>
+
+          {/* <section className="project-card even-project">
+            <img src={resumeCreator} alt="GROWING STARS Simulator"></img>
+            <div className="project-description">
+              <h2>GROWING STARS Sim</h2>
+              
+              <a href="https://github.com/cindyung56/gs-simulator">
+                <FontAwesomeIcon className="project-icon" icon={faGithub} />
+              </a>
+              <p>
+                A web simulation of the gacha feature of the mobile game THE iDOLM@STER SideM: GROWING STARS.
+                Users can use infinite currency to pull for cards of different rarities and see their results in an inventory.
+              </p>
+              <Link to="/resume-creator" className="more-info-btn">
+                MORE INFO
+              </Link>
+            </div>
+          </section> */}
 
           <section className="project-card odd-project">
             <img src={foodAdventure} alt="Food Adventure"></img>
