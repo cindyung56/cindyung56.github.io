@@ -5,7 +5,10 @@ import {
   faLocationDot,
   faLaptopCode,
   faGraduationCap,
+  faFileLines,
+  faEnvelope,
 } from "@fortawesome/free-solid-svg-icons";
+import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
 import profilePic from "../../images/profile-pic-icon.png";
 
 export default function About() {
@@ -20,10 +23,32 @@ export default function About() {
           <img src={profilePic} className="profile-pic" alt="profile"></img>
           <div className="social-media-container">
             <ul className="social-links">
-              <li><a href="https://www.linkedin.com/in/cindyung56/" target="_blank">LinkedIn</a></li>
-              <li><a href="https://github.com/cindyung56" target="_blank">GitHub</a></li>
-              <li><a href="https://drive.google.com/file/d/1pMx4VOOMCbidKkzb8zLKR8bU1W5oNqls/view?usp=sharing" target="_blank">Resume</a></li>
-              <li><a href="mailto:cindyung56@gmail.com">E-Mail</a></li>
+              <li>
+                <a
+                  href="https://www.linkedin.com/in/cindyung56/"
+                  target="_blank"
+                >
+                  <FontAwesomeIcon icon={faLinkedin} /> LinkedIn
+                </a>
+              </li>
+              <li>
+                <a href="https://github.com/cindyung56" target="_blank">
+                  <FontAwesomeIcon icon={faGithub} /> GitHub
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://drive.google.com/file/d/1c1tRvh2JsbOPpKHIG3UB-yRQXLj3Q7SN/view?usp=sharing"
+                  target="_blank"
+                >
+                  <FontAwesomeIcon icon={faFileLines} /> Resume
+                </a>
+              </li>
+              <li>
+                <a href="mailto:cindyung56@gmail.com">
+                  <FontAwesomeIcon icon={faEnvelope} /> E-Mail
+                </a>
+              </li>
             </ul>
           </div>
         </div>
@@ -63,7 +88,7 @@ export default function About() {
                 dynamic designs and applications. I love collaborating with
                 others because teamwork and communication is essential to
                 success. I'm always willing to learn new things and meet new
-                people! Some of my hobbies include: playing games, knitting,
+                people! In my free time, some of my hobbies include: playing games, knitting,
                 crocheting, and watching cat videos. ฅ^•ﻌ•^ฅ
               </p>
             </div>
