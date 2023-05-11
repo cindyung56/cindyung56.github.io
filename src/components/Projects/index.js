@@ -8,13 +8,14 @@ import { Link } from "react-router-dom";
 
 // importing images
 import beachPic from "../../images/beach-from-unsplash.jpg";
+
 import pikachuPic from "../../images/pikachu.jpg";
 import foodAdventure from "../../images/food-adventure.jpg";
 import resumeCreator from "../../images/resume-creator.jpg";
 import weatherDashboard from "../../images/weather-dashboard.jpg";
-import techBlog from "../../images/tech-blog.jpg";
-// import reduxStore from "../../images/redux-store.jpg";
+// import techBlog from "../../images/tech-blog.jpg";
 import typeIndexPic from "../../images/type-index.jpg";
+import growingStarsPic from "../../images/growing-stars.jpg";
 import "./style.css";
 
 export default function Projects() {
@@ -28,6 +29,7 @@ export default function Projects() {
       <section className="content" id="projects">
         <h2 className="content-text projects-title">Projects</h2>
         <div className="projects-div">
+
           <section className="project-card odd-project">
             <img src={pikachuPic} alt="I Choose You!"></img>
             <div className="project-description">
@@ -38,12 +40,53 @@ export default function Projects() {
               <a href="https://github.com/a-riveragonzalez/i-choose-you">
                 <FontAwesomeIcon className="project-icon" icon={faGithub} />
               </a>
+              <p>(WORK IN PROGRESS)</p>
               <p>
                 A responsive MERN dating web application that allows users to
                 create Pokémon-themed profiles, take a quiz to determine their
                 Pokémon, and match with other users to battle (or chat).
               </p>
               <Link to="/i-choose-you" className="more-info-btn">
+                MORE INFO
+              </Link>
+            </div>
+          </section>
+
+          <section className="project-card even-project">
+            <img src={growingStarsPic} alt="GROWING STARS Simulator"></img>
+            <div className="project-description">
+              <h2>GROWING STARS Sim</h2>
+              
+              <a href="https://github.com/cindyung56/gs-simulator">
+                <FontAwesomeIcon className="project-icon" icon={faGithub} />
+              </a>
+              <p>(WORK IN PROGRESS)</p>
+              <p>
+                A web simulation of the gacha feature of the mobile game THE iDOLM@STER SideM: GROWING STARS.
+                Users can use infinite currency to pull for cards of different rarities and see their results in an inventory.
+              </p>
+              <Link to="/growing-stars" className="more-info-btn">
+                MORE INFO
+              </Link>
+            </div>
+          </section>
+
+          <section className="project-card odd-project">
+            <img src={typeIndexPic} alt="Pokemon Type Index"></img>
+            <div className="project-description">
+              <h2>Pokémon Type Index</h2>
+              <a href="https://pokemon-stats.herokuapp.com">
+                <FontAwesomeIcon className="project-icon" icon={faLink} />
+              </a>
+              <a href="https://github.com/mladame/pokemon-type-index">
+                <FontAwesomeIcon className="project-icon" icon={faGithub} />
+              </a>
+              <p>
+                A Pokémon website that allows users to search for a Pokémon and
+                view its sprite, shiny form, weaknesses, strengths, and
+                immunities.
+              </p>
+              <Link to="/pokemon-type" className="more-info-btn">
                 MORE INFO
               </Link>
             </div>
@@ -69,24 +112,6 @@ export default function Projects() {
               </Link>
             </div>
           </section>
-
-          {/* <section className="project-card even-project">
-            <img src={resumeCreator} alt="GROWING STARS Simulator"></img>
-            <div className="project-description">
-              <h2>GROWING STARS Sim</h2>
-              
-              <a href="https://github.com/cindyung56/gs-simulator">
-                <FontAwesomeIcon className="project-icon" icon={faGithub} />
-              </a>
-              <p>
-                A web simulation of the gacha feature of the mobile game THE iDOLM@STER SideM: GROWING STARS.
-                Users can use infinite currency to pull for cards of different rarities and see their results in an inventory.
-              </p>
-              <Link to="/resume-creator" className="more-info-btn">
-                MORE INFO
-              </Link>
-            </div>
-          </section> */}
 
           <section className="project-card odd-project">
             <img src={foodAdventure} alt="Food Adventure"></img>
@@ -129,7 +154,7 @@ export default function Projects() {
             </div>
           </section>
 
-          <section className="project-card odd-project">
+          {/* <section className="project-card odd-project">
             <img src={techBlog} alt="Tech Blog"></img>
             <div className="project-description">
               <h2>The Tech Blog</h2>
@@ -148,28 +173,9 @@ export default function Projects() {
                 MORE INFO
               </Link>
             </div>
-          </section>
+          </section> */}
 
-          <section className="project-card even-project">
-            <img src={typeIndexPic} alt="Pokemon Type Index"></img>
-            <div className="project-description">
-              <h2>Pokémon Type Index</h2>
-              <a href="https://pokemon-stats.herokuapp.com">
-                <FontAwesomeIcon className="project-icon" icon={faLink} />
-              </a>
-              <a href="https://github.com/mladame/pokemon-type-index">
-                <FontAwesomeIcon className="project-icon" icon={faGithub} />
-              </a>
-              <p>
-                A Pokémon website that allows users to search for a Pokémon and
-                view its sprite, shiny form, weaknesses, strengths, and
-                immunities.
-              </p>
-              <Link to="/pokemon-type" className="more-info-btn">
-                MORE INFO
-              </Link>
-            </div>
-          </section>
+
         </div>
       </section>
     </Parallax>
