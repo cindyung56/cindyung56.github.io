@@ -38,7 +38,7 @@ export default function About() {
               </li>
               <li>
                 <a
-                  href="https://drive.google.com/file/d/1c1tRvh2JsbOPpKHIG3UB-yRQXLj3Q7SN/view?usp=sharing"
+                  href="https://drive.google.com/file/d/138wTx-3DeunTIsSkguA11H067SSjLPSa/view?usp=sharing"
                   target="_blank"
                 >
                   <FontAwesomeIcon icon={faFileLines} /> Resume
