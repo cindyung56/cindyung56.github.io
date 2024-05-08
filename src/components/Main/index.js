@@ -3,7 +3,7 @@ import Navigation from "../Navigation";
 import Home from "../Home";
 import About from "../About";
 import Projects from "../Projects";
-import Contact from "../Contact";
+import Experience from "../Experience";
 import Footer from "../Footer";
 
 export default function Main(){
@@ -35,7 +35,7 @@ export default function Main(){
             <i class="devicon-heroku-original colored"></i>
           </div>
                     <Projects />
-          {/* <Contact /> */}
+          <Experience />
           <Footer />
         </div>
       </>

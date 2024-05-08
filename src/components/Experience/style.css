@@ -1,13 +1,13 @@
-.contact-div{
+.experience-div{
     width: 100%;
     padding: 50px 0;
 }
 
-.contact-content{
+.experience-content{
     flex-direction: column;
 }
 
-.contact-btn{
+.experience-btn{
     padding: 10px 25px;
     margin: 0 20px;
     font-size: 1.5rem;
@@ -32,7 +32,7 @@
     background-color: #95b8d1;
 }
 
-.contact-btn:hover{
+.experience-btn:hover{
     color: white;
 }
 

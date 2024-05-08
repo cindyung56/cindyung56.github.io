@@ -40,7 +40,6 @@ export default function Projects() {
               <a href="https://github.com/a-riveragonzalez/i-choose-you">
                 <FontAwesomeIcon className="project-icon" icon={faGithub} />
               </a>
-              <p>(WORK IN PROGRESS)</p>
               <p>
                 A responsive MERN dating web application that allows users to
                 create Pokémon-themed profiles, take a quiz to determine their
