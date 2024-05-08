@@ -38,7 +38,7 @@ export default function About() {
               </li>
               <li>
                 <a
-                  href="https://drive.google.com/file/d/138wTx-3DeunTIsSkguA11H067SSjLPSa/view?usp=sharing"
+                  href="https://drive.google.com/file/d/1JxPJtqvhJ5LDQQ0Iy-HgBvRJTrfMGHe7/view?usp=sharing"
                   target="_blank"
                 >
                   <FontAwesomeIcon icon={faFileLines} /> Resume
@@ -82,13 +82,12 @@ export default function About() {
             <div className="bio-section" id="summary-section">
               <h2>Summary</h2>
               <p>
-                Hi, I'm Cindy! I am a Full Stack Web Developer working primarily
-                in JavaScript and React.js, with experience in UI/UX design and
-                testing. I enjoy problem solving and turning my ideas into
-                dynamic designs and applications. I love collaborating with
-                others because teamwork and communication is essential to
-                success. I'm always willing to learn new things and meet new
-                people! In my free time, some of my hobbies include: playing games, knitting,
+                Hi, I'm Cindy! I am a Full Stack Web Developer looking for a web developer opportunity. 
+                I work primarily in Python, JavaScript, and React.js, with some experience in UI/UX Design and product management. 
+                Currently I work as a Coding Coach at theCoderSchool Pasadena teaching young kids and aspiring adults the basics of coding logic and syntax. 
+                In my free time, I work as a contracted Software Developer for a new project named Bloksy.
+                I enjoy problem solving and turning my ideas into dynamic designs and applications. I work well both individually and in teams with many positive results and feedback.
+                I'm always willing to learn new things and meet new people! In my free time, some of my hobbies include: playing games, knitting,
                 crocheting, and watching cat videos. ฅ^•ﻌ•^ฅ
               </p>
             </div>
