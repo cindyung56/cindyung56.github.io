@@ -20,15 +20,6 @@
   padding: 5px;
 }
 
-.project-card {
-  width: 350px;
-  height: 350px;
-  background-color: #d6eadf;
-  margin: 20px 0;
-  position: relative;
-  box-shadow: 7px -7px #eac4d5;
-}
-
 .project-description a {
   color: #444;
 }
@@ -40,6 +31,19 @@
   margin-top: 10px;
   margin-right: 10px;
   border-radius: 50%;
+}
+
+.project-card {
+  width: 350px;
+  height: 350px;
+  background-color: #d6eadf;
+  margin: 20px 0;
+  position: relative;
+  box-shadow: -7px 7px #95b8d1;
+}
+
+.project-card h2{
+  background-color: -7px 7px #95b8d1;
 }
 
 .project-card img {
@@ -71,9 +75,15 @@
   opacity: 0.2;
 }
 
-
 .project-card:hover .project-description {
   opacity: 1;
+}
+
+.project-card .project-icon:hover, .project-card .more-info-btn:hover {
+  color: white;
+  border-color: white;
+  background-color: #95b8d1;
+  animation: colorPopBlue 0.25s;
 }
 
 .project-description {
@@ -94,7 +104,7 @@
   letter-spacing: 3px;
   border: 2px solid #444;
   border-radius: 10px;
-  background-color: #b8e0d4;
+  background-color: #95b8d1;
   font-weight: bold;
 }
 
@@ -114,44 +124,6 @@
   text-decoration: none;
 }
 
-.more-info-btn:hover{
-  color: white;
-}
-
-.even-project .more-info-btn{
-  background-color: #95b8d1;
-}
-
-.odd-project .more-info-btn{
-  background-color: #eac4d5;
-}
-
-
-.odd-project {
-  box-shadow: 7px -7px #eac4d5;
-}
-.odd-project h2 {
-  background-color: #eac4d5;
-}
-.odd-project .project-icon:hover {
-  color: white;
-  border-color: white;
-  background-color: #eac4d5;
-  animation: colorPopPink 0.25s;
-}
-
-.even-project h2 {
-  background-color: #95b8d1;
-}
-.even-project {
-  box-shadow: -7px 7px #95b8d1;
-}
-.even-project .project-icon:hover {
-  color: white;
-  border-color: white;
-  background-color: #95b8d1;
-  animation: colorPopBlue 0.25s;
-}
 
 @keyframes colorPopPink {
   from {

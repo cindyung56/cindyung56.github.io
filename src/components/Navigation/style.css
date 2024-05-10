@@ -1,6 +1,6 @@
 .navigation {
   height: 100%;
-  width: 10%;
+  width: 11%;
   position: fixed;
   right: 0;
   background-color: white;
@@ -70,6 +70,11 @@
 .navigation li:nth-child(2) a {
   border-right: 10px solid #b8e0d4;
 }
+
+.navigation li:nth-child(3) a {
+  border-right: 10px solid #d6eadf;
+}
+
 .navigation li:last-child a {
   border-right: 10px solid #eac4d5;
 }
@@ -98,7 +103,7 @@
   }
 
   .nav-icon {
-    font-size: 1.3em;
+    font-size: 1em;
   }
 }
 

@@ -30,7 +30,7 @@ export default function Projects() {
         <h2 className="content-text projects-title">Projects</h2>
         <div className="projects-div">
 
-          <section className="project-card odd-project">
+          <section className="project-card">
             <img src={pikachuPic} alt="I Choose You!"></img>
             <div className="project-description">
               <h2>I Choose You!</h2>
@@ -51,7 +51,7 @@ export default function Projects() {
             </div>
           </section>
 
-          <section className="project-card even-project">
+          <section className="project-card">
             <img src={growingStarsPic} alt="GROWING STARS Simulator"></img>
             <div className="project-description">
               <h2>GROWING STARS Sim</h2>
@@ -70,7 +70,7 @@ export default function Projects() {
             </div>
           </section>
 
-          <section className="project-card odd-project">
+          <section className="project-card">
             <img src={typeIndexPic} alt="Pokemon Type Index"></img>
             <div className="project-description">
               <h2>Pokémon Type Index</h2>
@@ -91,7 +91,7 @@ export default function Projects() {
             </div>
           </section>
 
-          <section className="project-card even-project">
+          <section className="project-card">
             <img src={resumeCreator} alt="Resume Creator"></img>
             <div className="project-description">
               <h2>Resume Creator</h2>
@@ -112,7 +112,7 @@ export default function Projects() {
             </div>
           </section>
 
-          <section className="project-card odd-project">
+          <section className="project-card">
             <img src={foodAdventure} alt="Food Adventure"></img>
             <div className="project-description">
               <h2>Food Adventure</h2>
@@ -132,7 +132,7 @@ export default function Projects() {
             </div>
           </section>
 
-          <section className="project-card even-project">
+          <section className="project-card">
             <img src={weatherDashboard} alt="Weather Dashboard"></img>
             <div className="project-description">
               <h2>Weather Dashboard</h2>

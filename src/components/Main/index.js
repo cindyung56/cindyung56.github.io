@@ -16,25 +16,27 @@ export default function Main(){
           <About />
 
           <div className="skills-section">
-            <i class="devicon-html5-plain-wordmark colored"></i>
-            <i class="devicon-css3-plain-wordmark colored"></i>
-            <i class="devicon-javascript-plain colored"></i>
-            <i class="devicon-jquery-plain colored"></i>
-            <i class="devicon-nodejs-plain-wordmark colored"></i>
-            <i class="devicon-npm-original-wordmark colored"></i>
-            <i class="devicon-express-original colored"></i>
-            <i class="devicon-mysql-plain colored"></i>
-            <i class="devicon-sequelize-plain colored"></i>
-            <i class="devicon-mongodb-plain-wordmark colored"></i>
-            <i class="devicon-graphql-plain colored"></i>
-            <i class="devicon-python-plain colored"></i>
-            <i class="devicon-react-original colored"></i>
-            <i class="devicon-redux-original colored"></i>
-            <i class="devicon-visualstudio-plain colored"></i>
-            <i class="devicon-github-original colored"></i>
-            <i class="devicon-heroku-original colored"></i>
+            <i className="devicon-html5-plain-wordmark colored"></i>
+            <i className="devicon-css3-plain-wordmark colored"></i>
+            <i className="devicon-javascript-plain colored"></i>
+            <i className="devicon-typescript-plain colored"></i>
+            <i className="devicon-python-plain colored"></i>
+            <i className="devicon-react-original colored"></i>
+            <i className="devicon-visualstudio-plain colored"></i>
+            <i className="devicon-github-original colored"></i>
           </div>
-                    <Projects />
+          <Projects />
+          <div className="skills-section">
+            <i className="devicon-jquery-plain colored"></i>
+            <i className="devicon-nodejs-plain-wordmark colored"></i>
+            <i className="devicon-npm-original-wordmark colored"></i>
+            <i className="devicon-express-original colored"></i>
+            <i className="devicon-mysql-plain colored"></i>
+            <i className="devicon-sequelize-plain colored"></i>
+            <i className="devicon-mongodb-plain-wordmark colored"></i>
+            <i className="devicon-graphql-plain colored"></i>
+            <i className="devicon-heroku-original colored"></i>
+          </div>
           <Experience />
           <Footer />
         </div>

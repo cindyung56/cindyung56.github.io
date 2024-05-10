@@ -15,15 +15,19 @@ export default function Experience() {
       className="parallax-section"
     >
       <section className="experience-section" id="experience">
-        <h2 className="content-text experience-title">Experience</h2>
+        <h2 className="exp-heading">
+          <span className="content-text experience-title">Experience</span>
+        </h2>
         <div className="experience-div">
-          <h2>Bloksy</h2>
-        </div>
-        <div className="experience-div">
-          <h2>Coding Coach</h2>
-        </div>
-        <div className="experience-div">
-          <h2>Data Entry Assistant</h2>
+          <section className="experience-card">
+            <h2>Bloksy</h2>
+          </section>
+          <section className="experience-card">
+            <h2>Coding Coach</h2>
+          </section>
+          <section className="experience-card">
+            <h2>Data Entry Assistant</h2>
+          </section>
         </div>
       </section>
     </Parallax>

@@ -44,7 +44,7 @@
 .skills-section i{
   font-size: 4rem;
   filter: grayscale(100%);
-  margin-right: 15px;
+  margin: 0px 15px;
 }
 
 .skills-section i:hover{
