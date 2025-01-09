@@ -85,8 +85,8 @@ export default function About() {
                 Hi, I'm Cindy! I am a Full Stack Web Developer looking for a web developer opportunity. 
                 I work primarily in Python, JavaScript, and React.js, with some experience in UI/UX Design and product management. 
                 Currently I work as a Coding Coach at theCoderSchool Pasadena teaching young kids and aspiring adults the basics of coding logic and syntax. 
-                In my free time, I work as a contracted Software Developer for a new project named Bloksy.
-                I enjoy problem solving and turning my ideas into dynamic designs and applications. I work well both individually and in teams with many positive results and feedback.
+                When I am not teaching, I work as a contracted Software Developer for a new project named Bloksy.
+                I enjoy problem solving and turning my ideas into dynamic designs and applications. I work well both individually and collaboratively with many positive results.
                 I'm always willing to learn new things and meet new people! In my free time, some of my hobbies include: playing games, knitting,
                 crocheting, and watching cat videos. ฅ^•ﻌ•^ฅ
               </p>

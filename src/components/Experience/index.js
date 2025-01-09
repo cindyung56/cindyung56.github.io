@@ -20,13 +20,21 @@ export default function Experience() {
         </h2>
         <div className="experience-div">
           <section className="experience-card">
-            <h2>Bloksy</h2>
+            <h2>Software Developer</h2>
+            <h3>Bloksy</h3>
+            <p>
+              <ul>
+                <li></li>
+              </ul>
+            </p>
           </section>
           <section className="experience-card">
             <h2>Coding Coach</h2>
+            <h3>theCoderSchool Pasadena</h3>
           </section>
           <section className="experience-card">
             <h2>Data Entry Assistant</h2>
+            <h3>All For One Accounting</h3>
           </section>
         </div>
       </section>
