@@ -124,20 +124,6 @@
   text-decoration: none;
 }
 
-
-@keyframes colorPopPink {
-  from {
-    color: #444;
-    border-color: #444;
-    background: none;
-  }
-  to {
-    background: #eac4d5;
-    color: white;
-    border-color: white;
-  }
-}
-
 @keyframes colorPopBlue {
   from {
     color: #444;

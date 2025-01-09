@@ -64,6 +64,19 @@
     color: white;
 }
 
+/* ANIMATIONS */
+@keyframes colorPopPink {
+    from {
+      color: #444;
+      border-color: #444;
+      background: none;
+    }
+    to {
+      background: #eac4d5;
+      color: white;
+      border-color: white;
+    }
+  }
 
 /* 
 @media screen and (max-width: 768px) {
