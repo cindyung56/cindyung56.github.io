@@ -1,4 +1,5 @@
 .experience-section{
+    height: 50vh;
     margin-top: 50px;
 }
 
@@ -8,13 +9,10 @@
 }
 
 .experience-div{
-    padding: 50px 5px;
-    display: flex;
+    margin: 50px auto;
+    padding: 50px auto;
     width: 95%;
     background-color: rgba(255, 255, 255, 0.266);
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
 }
 
 .experience-title{
@@ -23,12 +21,19 @@
 }
 
 .experience-card{
-    width: 350px;
-    height: 350px;
+    width: 90%;
+    height: auto;
     background-color: #d6eadf;
-    margin: 20px 0;
-    position: relative;
+    margin: 20px auto;
+    padding: 10px auto;
     box-shadow: 7px -7px #eac4d5;
+}
+
+.work-dates{
+    color: grey;
+    margin-left: 50px;
+    font-style: italic;
+    font-weight: 400;
 }
 
 .experience-content{

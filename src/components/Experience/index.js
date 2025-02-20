@@ -21,20 +21,18 @@ export default function Experience() {
         <div className="experience-div">
           <section className="experience-card">
             <h2>Software Developer</h2>
-            <h3>Bloksy</h3>
-            <p>
+            <h3>Bloksy <span className="work-dates">May 2023 - present</span></h3>
               <ul>
-                <li></li>
+                <li>Participated in an agile work environment with fellow developers to discuss and plan bi-weekly sprints for upcoming application updates using Figma and Jira.</li>
+                <li>Created new components utilizing modern technologies including TypeScript, Next.js, PostgreSQL, Apollo, and GraphQL, while also maintaining functionality and compatibility with existing React.js components.</li>
+                <li>Utilized React Hook Form to create user-friendly forms, learning how to control the information received from the form using a Yup schema for data validation.</li>
+                <li>Applied front-end and back-end concepts to implement new resolvers, retrieve information from the database, and display data in a sorted, paginated list.</li>
+                <li>Assisted in troubleshooting and debugging issues across the application to ensure quality, performance, and efficiency.</li>
               </ul>
-            </p>
           </section>
           <section className="experience-card">
             <h2>Coding Coach</h2>
-            <h3>theCoderSchool Pasadena</h3>
-          </section>
-          <section className="experience-card">
-            <h2>Data Entry Assistant</h2>
-            <h3>All For One Accounting</h3>
+            <h3>theCoderSchool Pasadena <span className="work-dates">March 2020 - present</span></h3>
           </section>
         </div>
       </section>
