@@ -95,6 +95,7 @@
   height: 100%;
   opacity: 0;
   z-index: 3;
+  padding-top: 10px;
 }
 
 .project-description h2 {
