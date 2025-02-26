@@ -30,13 +30,31 @@ export default function Projects() {
         <h2 className="content-text projects-title">Projects</h2>
         <div className="projects-div">
 
+        <section className="project-card">
+            <img src={growingStarsPic} alt="GROWING STARS Simulator"></img>
+            <div className="project-description">
+              <h2>GROWING STARS Sim</h2>
+              
+              <a href="https://github.com/cindyung56/gs-simulator">
+                <FontAwesomeIcon className="project-icon" icon={faGithub} />
+              </a>
+              <p>
+                A web simulation of the gacha feature of the mobile game THE iDOLM@STER SideM: GROWING STARS.
+                Users can use infinite currency to pull for cards of different rarities and see their results in an inventory.
+              </p>
+              <Link to="/growing-stars" className="more-info-btn">
+                MORE INFO
+              </Link>
+            </div>
+          </section>
+
           <section className="project-card">
             <img src={pikachuPic} alt="I Choose You!"></img>
             <div className="project-description">
               <h2>I Choose You!</h2>
-              <a href="https://ichooseyou.herokuapp.com/">
+              {/* <a href="https://ichooseyou.herokuapp.com/">
                 <FontAwesomeIcon className="project-icon" icon={faLink} />
-              </a>
+              </a> */}
               <a href="https://github.com/a-riveragonzalez/i-choose-you">
                 <FontAwesomeIcon className="project-icon" icon={faGithub} />
               </a>
@@ -51,32 +69,15 @@ export default function Projects() {
             </div>
           </section>
 
-          <section className="project-card">
-            <img src={growingStarsPic} alt="GROWING STARS Simulator"></img>
-            <div className="project-description">
-              <h2>GROWING STARS Sim</h2>
-              
-              <a href="https://github.com/cindyung56/gs-simulator">
-                <FontAwesomeIcon className="project-icon" icon={faGithub} />
-              </a>
-              <p>(WORK IN PROGRESS)</p>
-              <p>
-                A web simulation of the gacha feature of the mobile game THE iDOLM@STER SideM: GROWING STARS.
-                Users can use infinite currency to pull for cards of different rarities and see their results in an inventory.
-              </p>
-              <Link to="/growing-stars" className="more-info-btn">
-                MORE INFO
-              </Link>
-            </div>
-          </section>
+
 
           <section className="project-card">
             <img src={typeIndexPic} alt="Pokemon Type Index"></img>
             <div className="project-description">
               <h2>Pokémon Type Index</h2>
-              <a href="https://pokemon-stats.herokuapp.com">
+              {/* <a href="https://pokemon-stats.herokuapp.com">
                 <FontAwesomeIcon className="project-icon" icon={faLink} />
-              </a>
+              </a> */}
               <a href="https://github.com/mladame/pokemon-type-index">
                 <FontAwesomeIcon className="project-icon" icon={faGithub} />
               </a>
@@ -95,9 +96,9 @@ export default function Projects() {
             <img src={resumeCreator} alt="Resume Creator"></img>
             <div className="project-description">
               <h2>Resume Creator</h2>
-              <a href="https://fierce-ravine-29010.herokuapp.com/">
+              {/* <a href="https://fierce-ravine-29010.herokuapp.com/">
                 <FontAwesomeIcon className="project-icon" icon={faLink} />
-              </a>
+              </a> */}
               <a href="https://github.com/cindyung56/resume-creator">
                 <FontAwesomeIcon className="project-icon" icon={faGithub} />
               </a>

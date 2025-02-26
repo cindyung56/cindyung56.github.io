@@ -1,5 +1,6 @@
 .experience-section{
-    margin-top: 50px;
+    height: 70vh;
+    margin: 50px auto;
 }
 
 .exp-heading{
@@ -8,13 +9,10 @@
 }
 
 .experience-div{
-    padding: 50px 5px;
-    display: flex;
+    margin: 50px auto;
+    padding: 5px;
     width: 95%;
     background-color: rgba(255, 255, 255, 0.266);
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
 }
 
 .experience-title{
@@ -23,45 +21,24 @@
 }
 
 .experience-card{
-    width: 350px;
-    height: 350px;
+    width: 90%;
+    height: auto;
     background-color: #d6eadf;
-    margin: 20px 0;
-    position: relative;
+    margin: 15px auto;
+    padding: 5px;
+    font-size: 1em;
     box-shadow: 7px -7px #eac4d5;
+}
+
+.work-dates{
+    color: grey;
+    margin-left: 50px;
+    font-style: italic;
+    font-weight: 400;
 }
 
 .experience-content{
     flex-direction: column;
-}
-
-.experience-btn{
-    padding: 10px 25px;
-    margin: 0 20px;
-    font-size: 1.5rem;
-    cursor: pointer;
-    color: #444;
-    font-weight: bold;
-    border-radius: 10px;
-    border: none;
-    box-shadow: 2px 2px white;
-    margin-bottom: 10px;
-}
-
-#resume{
-    background-color: #eac4d5;
-}
-
-#linkedin{
-    background-color: #d6eadf;
-}
-
-#email{
-    background-color: #95b8d1;
-}
-
-.experience-btn:hover{
-    color: white;
 }
 
 /* ANIMATIONS */

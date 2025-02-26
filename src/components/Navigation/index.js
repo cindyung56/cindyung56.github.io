@@ -33,7 +33,7 @@ export default function Navigation() {
         </li>
 
         <li>
-          <a href="#contact" className="nav-link">
+          <a href="#experience" className="nav-link">
             <FontAwesomeIcon icon={faBriefcase} className="nav-icon" />
             <span className="icon-title">Experience</span>
           </a>
