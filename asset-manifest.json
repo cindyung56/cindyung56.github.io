@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.f18602b2.css",
-    "main.js": "/static/js/main.4178709e.js",
+    "main.js": "/static/js/main.461b96bd.js",
     "static/js/787.3be9ce3a.chunk.js": "/static/js/787.3be9ce3a.chunk.js",
     "static/media/gs1.png": "/static/media/gs1.0cbf3be75cf6f264b76d.png",
     "static/media/blossom-from-unsplash.jpg": "/static/media/blossom-from-unsplash.8aafc0e6ad6b6fc3e1c9.jpg",
@@ -29,21 +29,23 @@
     "static/media/typeindex2.jpg": "/static/media/typeindex2.4d3b74d0c26cad8de3d8.jpg",
     "static/media/typeindex4.jpg": "/static/media/typeindex4.cbe8924a0fd9f7dadd77.jpg",
     "static/media/fa1.png": "/static/media/fa1.a492c30255eab00542df.png",
-    "static/media/weather-dashboard.jpg": "/static/media/weather-dashboard.6f5d592dc72f9b795faa.jpg",
     "static/media/resume-creator.jpg": "/static/media/resume-creator.7eeb72813783e283cb3f.jpg",
     "static/media/type-index.jpg": "/static/media/type-index.565eddf275a5ab9f7269.jpg",
+    "static/media/wordle1.jpg": "/static/media/wordle1.f065132aead9466e0abd.jpg",
+    "static/media/wordle2.jpg": "/static/media/wordle2.37eda0d777749ca7a6d8.jpg",
     "static/media/wd2.png": "/static/media/wd2.32d4ff9b43c45500a06b.png",
+    "static/media/wordle-clone.jpg": "/static/media/wordle-clone.2d44e3d32081fb8dd51b.jpg",
     "static/media/fa2.png": "/static/media/fa2.36a17c928b75e48d6a90.png",
     "static/media/typeindex1.jpg": "/static/media/typeindex1.1e170f142ef9dba6e492.jpg",
     "static/media/team.png": "/static/media/team.198c77cfadaa3f78d39c.png",
     "static/media/icy4.png": "/static/media/icy4.b0734eebe8e3675513f6.png",
     "index.html": "/index.html",
     "main.f18602b2.css.map": "/static/css/main.f18602b2.css.map",
-    "main.4178709e.js.map": "/static/js/main.4178709e.js.map",
+    "main.461b96bd.js.map": "/static/js/main.461b96bd.js.map",
     "787.3be9ce3a.chunk.js.map": "/static/js/787.3be9ce3a.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f18602b2.css",
-    "static/js/main.4178709e.js"
+    "static/js/main.461b96bd.js"
   ]
 }
