@@ -23,15 +23,6 @@ export default function ResumeCreator() {
       </div>
       <div className="p-links">
         <a
-          href="https://fierce-ravine-29010.herokuapp.com/"
-          target="_blank"
-          rel="noreferrer"
-          className="p-link-btn"
-        >
-          <FontAwesomeIcon icon={faLink} />
-          {"  "}Website
-        </a>
-        <a
           href="https://github.com/cindyung56/resume-creator"
           target="_blank"
           rel="noreferrer"
@@ -50,9 +41,18 @@ export default function ResumeCreator() {
           </li>
           <li>
             <b>Group:</b> Anonymous Dinosaurs (
-            <a href="https://github.com/camilleyong" className="external-link">Camille Yong</a>,{" "}
-            <a href="https://github.com/Proper-Stevo" className="external-link">Steven Barrios</a>,{" "}
-            <a href="https://github.com/toddrgarner" className="external-link">Todd Garner</a>)
+            <a href="https://github.com/camilleyong" className="external-link">
+              Camille Yong
+            </a>
+            ,{" "}
+            <a href="https://github.com/Proper-Stevo" className="external-link">
+              Steven Barrios
+            </a>
+            ,{" "}
+            <a href="https://github.com/toddrgarner" className="external-link">
+              Todd Garner
+            </a>
+            )
           </li>
           <li>
             <b>Website Description:</b> Create a simple and interactive resume
@@ -134,19 +134,21 @@ export default function ResumeCreator() {
           initially had an idea to import the generated template to be a word
           document or PDF file, but then we quickly realized there were no
           existing frameworks or libraries that could convert a webpage to a PDF
-          file. Combined with Camille getting sick, we did not have enough time
-          to research this in more detail and could not deliver that
-          functionality.
+          file. Combined with Camille getting sick and our deadline of one week
+          to deliver a working prototype, we did not have enough time to
+          research this in more detail and could not make that functionality a
+          reality.
         </p>
         <p>
           Another regret I had around this time was the obvious burnout I had by
           the time we presented our application. While I enjoyed working on the
-          project and did all my tasks properly, I spent many days coding until
-          dinner time or when I had to clock in for my part time job. Working on
-          this project for so long also made me feel like my code was very messy
-          and unorganized, despite it actually being decently made (and the app
-          works!). While I do regret this, I also got a worthwhile experience
-          from my mistakes and learned to pace myself and take more breaks.
+          project and did all my tasks properly, I spent many days coding for
+          hours without breaks while also having to focus to my part time job.
+          Working on this project for so long also made me feel like my code was
+          very messy and unorganized. While I do regret these things, I also
+          think I obtained a valuable experience and understanding of how full
+          stack programming works. I learned from my mistakes and discovered the
+          importance of pacing myself and taking breaks.
         </p>
       </div>
     </div>

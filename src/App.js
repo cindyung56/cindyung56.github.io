@@ -8,6 +8,7 @@ import ResumeCreator from "./components/ProjectLinks/ResumeCreator";
 import GrowingStars from "./components/ProjectLinks/GrowingStars";
 import WeatherDashboard from "./components/ProjectLinks/WeatherDashboard";
 import TypeIndex from "./components/ProjectLinks/TypeIndex";
+import WordleClone from "./components/ProjectLinks/WordleClone";
 // import TechBlog from "./components/ProjectLinks/TechBlog";
 
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
@@ -28,6 +29,7 @@ function App() {
           <Route path="/growing-stars" element={<GrowingStars />} />          
           <Route path="/weather-dashboard" element={<WeatherDashboard />} />
           <Route path="/pokemon-type" element={<TypeIndex />} />
+          <Route path="/wordle-clone" element={<WordleClone />} />
           {/* <Route path="/tech-blog" element={<TechBlog />} /> */}
         </Routes>
       </div>

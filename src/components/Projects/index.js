@@ -12,10 +12,11 @@ import beachPic from "../../images/beach-from-unsplash.jpg";
 import pikachuPic from "../../images/pikachu.jpg";
 import foodAdventure from "../../images/food-adventure.jpg";
 import resumeCreator from "../../images/resume-creator.jpg";
-import weatherDashboard from "../../images/weather-dashboard.jpg";
-// import techBlog from "../../images/tech-blog.jpg";
 import typeIndexPic from "../../images/type-index.jpg";
 import growingStarsPic from "../../images/growing-stars.jpg";
+import wordleClonePic from "../../images/wordle-clone.jpg";
+
+// importing css styling
 import "./style.css";
 
 export default function Projects() {
@@ -31,19 +32,19 @@ export default function Projects() {
         <div className="projects-div">
 
         <section className="project-card">
-            <img src={growingStarsPic} alt="Wordle Clone"></img>
+            <img src={wordleClonePic} alt="Wordle Clone"></img>
             <div className="project-description">
               <h2>Wordle Clone</h2>
-              {/* <a href="https://cindyung56.github.io/food-adventure/">
+              <a href="https://cindyung56.github.io/wordle-clone/">
                 <FontAwesomeIcon className="project-icon" icon={faLink} />
-              </a> */}
+              </a>
               <a href="https://github.com/cindyung56/wordle-clone">
                 <FontAwesomeIcon className="project-icon" icon={faGithub} />
               </a>
               <p>
                 A JavaScript project recreating the popular New York Times game Wordle. Uses animate.css to help with the animations.
               </p>
-              <Link to="/growing-stars" className="more-info-btn">
+              <Link to="/wordle-clone" className="more-info-btn">
                 MORE INFO
               </Link>
             </div>
@@ -141,7 +142,7 @@ export default function Projects() {
             </div>
           </section>
 
-          <section className="project-card">
+          {/* <section className="project-card">
             <img src={weatherDashboard} alt="Weather Dashboard"></img>
             <div className="project-description">
               <h2>Weather Dashboard</h2>
@@ -160,7 +161,7 @@ export default function Projects() {
                 MORE INFO
               </Link>
             </div>
-          </section>
+          </section> */}
 
         </div>
       </section>

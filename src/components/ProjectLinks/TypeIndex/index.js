@@ -25,15 +25,6 @@ export default function TypeIndex() {
       </div>
       <div className="p-links">
         <a
-          href="https://pokemon-stats.herokuapp.com/"
-          target="_blank"
-          rel="noreferrer"
-          className="p-link-btn"
-        >
-          <FontAwesomeIcon icon={faLink} />
-          {"  "}Website
-        </a>
-        <a
           href="https://github.com/mladame/pokemon-type-index"
           target="_blank"
           rel="noreferrer"

@@ -8,9 +8,9 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faLink } from "@fortawesome/free-solid-svg-icons";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
 
-//import images
-// import weatherDash1 from "./images/wd1.png";
-// import weatherDash2 from "./images/wd2.png";
+// import images
+import wordle1 from "./images/wordle1.jpg";
+import wordle2 from "./images/wordle2.jpg";
 
 export default function WordleClone() {
   return (
@@ -49,7 +49,7 @@ export default function WordleClone() {
             Animate.css
           </li>
           <li>
-            <b>Group Members:</b> 1 (me, myself, and I)
+            <b>Group Members:</b> Solo project!
           </li>
           <li>
             <b>Website Description:</b> A recreation of the popular game Wordle
@@ -73,25 +73,24 @@ export default function WordleClone() {
           is fun and simple, but surprisingly difficult to master.
         </p>
 
-        {/* <div className="carousel-div">
+        <div className="carousel-div">
           <Carousel className="carousel" axis="horizontal" showArrows={false}>
             <div>
-              <img src={weatherDash1} alt="weather dashboard search" />
+              <img src={wordle2} alt="getting the word correct" />
               <p className="legend">
-                Searching the weather forecast for the next 5 days in Los
-                Angeles
+                Getting the word correct by correctly guessing the word via
+                hints.
               </p>
             </div>
             <div>
-              <img src={weatherDash2} alt="weather dashboard history" />
+              <img src={wordle1} alt="running out of tries" />
               <p className="legend">
-                Using search history to get weather data for a previously
-                searched city
+                Running out of tries and seeing the final word in the end.
               </p>
             </div>
           </Carousel>
-        </div> */}
-        
+        </div>
+
         <h2>RESPONSIBILITIES / CODING PROCESS</h2>
         <p>
           I had the thought to replicate Wordle as I was playing it one day,
@@ -127,7 +126,24 @@ export default function WordleClone() {
           only if its value was not green already. This is to ensure that the
           user can see that they were still correct in a previous guess, even if
           it is not in the current guess. (The original Wordle game also has
-          this feature.) If neither condition is correct, the value changes to grey.
+          this feature.) If neither condition is correct, the value changes to
+          grey. After the object is updated, the app will update both the guess
+          and the specific keys on the keyboard and change their colors
+          accordingly.
+        </p>
+
+        <p>
+          After the main code was complete, I went to implementing the
+          animations for when a letter was inputted. I already ran into some
+          problems here; the main issue with this was that I coded the
+          animations for EVERY letter via a for loop, and not just the single
+          newly-added letter. I had to fix the code here to only implement the
+          animation on the current index using a global variable. The other
+          animation I had to implement was flipping each box in a row once the
+          user submitted a guess. This was easier than expected, and I used the
+          setTimeout function to flip each box one after another in a for loop.
+          At the same time, the colors on the keyboard would also change color
+          with each box flip.
         </p>
       </div>
     </div>
