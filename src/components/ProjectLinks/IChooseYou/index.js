@@ -5,7 +5,6 @@ import { Carousel } from "react-responsive-carousel";
 
 import "../project-style.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faLink } from "@fortawesome/free-solid-svg-icons";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
 
 // import images
@@ -28,15 +27,6 @@ export default function IChooseYou() {
         <h1 className="p-heading">I Choose You!</h1>
       </div>
       <div className="p-links">
-        <a
-          href="https://ichooseyou.herokuapp.com/"
-          target="_blank"
-          rel="noreferrer"
-          className="p-link-btn"
-        >
-          <FontAwesomeIcon icon={faLink} />
-          {"  "}Website
-        </a>
         <a
           href="https://github.com/a-riveragonzalez/i-choose-you"
           target="_blank"
@@ -158,7 +148,7 @@ export default function IChooseYou() {
         <p>
           As one of the full-stack developers working on this website, I made my
           mark both on the backend and frontend areas of the application. My
-          group was amazing to work with and we always had fun. We all knew how
+          group was amazing to work with; we all knew how
           to work hard and play even harder. We collaborated on the backend by
           making all of the resolver functions and models together, so we could
           spend more time focusing on the frontend using React. We also took the

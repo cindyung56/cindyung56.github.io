@@ -12,10 +12,11 @@ import beachPic from "../../images/beach-from-unsplash.jpg";
 import pikachuPic from "../../images/pikachu.jpg";
 import foodAdventure from "../../images/food-adventure.jpg";
 import resumeCreator from "../../images/resume-creator.jpg";
-import weatherDashboard from "../../images/weather-dashboard.jpg";
-// import techBlog from "../../images/tech-blog.jpg";
 import typeIndexPic from "../../images/type-index.jpg";
 import growingStarsPic from "../../images/growing-stars.jpg";
+import wordleClonePic from "../../images/wordle-clone.jpg";
+
+// importing css styling
 import "./style.css";
 
 export default function Projects() {
@@ -29,6 +30,25 @@ export default function Projects() {
       <section className="content" id="projects">
         <h2 className="content-text projects-title">Projects</h2>
         <div className="projects-div">
+
+        <section className="project-card">
+            <img src={wordleClonePic} alt="Wordle Clone"></img>
+            <div className="project-description">
+              <h2>Wordle Clone</h2>
+              <a href="https://cindyung56.github.io/wordle-clone/">
+                <FontAwesomeIcon className="project-icon" icon={faLink} />
+              </a>
+              <a href="https://github.com/cindyung56/wordle-clone">
+                <FontAwesomeIcon className="project-icon" icon={faGithub} />
+              </a>
+              <p>
+                A JavaScript project recreating the popular New York Times game Wordle. Uses animate.css to help with the animations.
+              </p>
+              <Link to="/wordle-clone" className="more-info-btn">
+                MORE INFO
+              </Link>
+            </div>
+          </section>
 
         <section className="project-card">
             <img src={growingStarsPic} alt="GROWING STARS Simulator"></img>
@@ -52,9 +72,6 @@ export default function Projects() {
             <img src={pikachuPic} alt="I Choose You!"></img>
             <div className="project-description">
               <h2>I Choose You!</h2>
-              {/* <a href="https://ichooseyou.herokuapp.com/">
-                <FontAwesomeIcon className="project-icon" icon={faLink} />
-              </a> */}
               <a href="https://github.com/a-riveragonzalez/i-choose-you">
                 <FontAwesomeIcon className="project-icon" icon={faGithub} />
               </a>
@@ -69,15 +86,10 @@ export default function Projects() {
             </div>
           </section>
 
-
-
           <section className="project-card">
             <img src={typeIndexPic} alt="Pokemon Type Index"></img>
             <div className="project-description">
               <h2>Pokémon Type Index</h2>
-              {/* <a href="https://pokemon-stats.herokuapp.com">
-                <FontAwesomeIcon className="project-icon" icon={faLink} />
-              </a> */}
               <a href="https://github.com/mladame/pokemon-type-index">
                 <FontAwesomeIcon className="project-icon" icon={faGithub} />
               </a>
@@ -96,9 +108,6 @@ export default function Projects() {
             <img src={resumeCreator} alt="Resume Creator"></img>
             <div className="project-description">
               <h2>Resume Creator</h2>
-              {/* <a href="https://fierce-ravine-29010.herokuapp.com/">
-                <FontAwesomeIcon className="project-icon" icon={faLink} />
-              </a> */}
               <a href="https://github.com/cindyung56/resume-creator">
                 <FontAwesomeIcon className="project-icon" icon={faGithub} />
               </a>
@@ -133,7 +142,7 @@ export default function Projects() {
             </div>
           </section>
 
-          <section className="project-card">
+          {/* <section className="project-card">
             <img src={weatherDashboard} alt="Weather Dashboard"></img>
             <div className="project-description">
               <h2>Weather Dashboard</h2>
@@ -152,29 +161,7 @@ export default function Projects() {
                 MORE INFO
               </Link>
             </div>
-          </section>
-
-          {/* <section className="project-card odd-project">
-            <img src={techBlog} alt="Tech Blog"></img>
-            <div className="project-description">
-              <h2>The Tech Blog</h2>
-              <a href="https://salty-earth-22984.herokuapp.com">
-                <FontAwesomeIcon className="project-icon" icon={faLink} />
-              </a>
-              <a href="https://github.com/cindyung56/tech-blog">
-                <FontAwesomeIcon className="project-icon" icon={faGithub} />
-              </a>
-              <p>
-                An MVC tech blog application that allows users to post their
-                coding thoughts or questions, and comment on other people's
-                posts.
-              </p>
-              <Link to="/tech-blog" className="more-info-btn">
-                MORE INFO
-              </Link>
-            </div>
           </section> */}
-
 
         </div>
       </section>

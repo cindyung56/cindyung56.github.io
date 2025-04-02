@@ -5,7 +5,7 @@ import { Carousel } from "react-responsive-carousel";
 
 import "../project-style.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faLink } from "@fortawesome/free-solid-svg-icons";
+// import { faLink } from "@fortawesome/free-solid-svg-icons";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
 
 import gs1 from "./images/gs1.png";
@@ -23,15 +23,6 @@ export default function GrowingStars() {
         <h1 className="p-heading">Growing Stars Simulator</h1>
       </div>
       <div className="p-links">
-        {/* <a
-          href=""
-          target="_blank"
-          rel="noreferrer"
-          className="p-link-btn"
-        >
-          <FontAwesomeIcon icon={faLink} />
-          {"  "}Website
-        </a> */}
         <a
           href="https://github.com/cindyung56/gs-simulator"
           target="_blank"
@@ -111,8 +102,8 @@ export default function GrowingStars() {
 
         <h2>RESPONSIBILITIES</h2>
         <p>
-          As the sole developer working on this personal project, it was a giant
-          undertaking of how to emulate the same functionalities of the game
+          As the sole developer working on this personal project, it is a giant
+          undertaking learning how to emulate the same functionalities of the game
           using React.js. I broke up my tasks into several steps using a Trello
           kanban board:
           <ul>
@@ -151,11 +142,10 @@ export default function GrowingStars() {
         <p>
           While still a work in progress and not my initial purpose, I intend to
           use this personal project as a way to preserve the fond memories of
-          Growing Stars for the future. The game is unfortunately reaching end
-          of service in July 2023, meaning it will cease to exist once the date
-          inevitably arrives. I hope that once this simulator is published, it
-          will help other fans like me have fun with pulling on gacha and
-          looking back at the game for what it was.
+          GROWING STARS for the future. The game unfortunately reached its end
+          in July 2023 and cannot be downloaded anymore. I hope that once this
+          simulator is finished, it will help other fans like me have fun and
+          look back at the game for what it was.
         </p>
       </div>
     </div>
