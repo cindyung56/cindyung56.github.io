@@ -23,7 +23,7 @@ export default function WordleClone() {
       </div>
       <div className="p-links">
         <a
-          href="https://cindyung56.github.io/weather-dashboard/"
+          href="https://cindyung56.github.io/wordle-clone/"
           target="_blank"
           rel="noreferrer"
           className="p-link-btn"
