@@ -29,7 +29,7 @@ function App() {
           <Route path="/growing-stars" element={<GrowingStars />} />          
           <Route path="/weather-dashboard" element={<WeatherDashboard />} />
           <Route path="/pokemon-type" element={<TypeIndex />} />
-          <Route path="/wordle-clone" element={<WordleClone />} />
+          <Route path="/wordle-clone-proj" element={<WordleClone />} />
           {/* <Route path="/tech-blog" element={<TechBlog />} /> */}
         </Routes>
       </div>
