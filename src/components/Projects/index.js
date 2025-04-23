@@ -44,7 +44,7 @@ export default function Projects() {
               <p>
                 A JavaScript project recreating the popular New York Times game Wordle. Uses animate.css to help with the animations.
               </p>
-              <Link to="/wordle-clone" className="more-info-btn">
+              <Link to="/wordle-clone-proj" className="more-info-btn">
                 MORE INFO
               </Link>
             </div>
